@@ -11,3 +11,5 @@
 * What is the IP address /8 reserved mostly for Ham radio?   The /16 for Western Washington?  For extra credit - why "mostly?"
 
 * What is Morse Code for "@" - as used in Email addresses.
+
+* What is the difference between Power and Energy?
