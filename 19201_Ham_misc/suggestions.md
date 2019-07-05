@@ -14,3 +14,7 @@ BV: Read the three PDF downloads (QST articles) from the end of Ed Fong's web pa
 ### Q. Converted this cb antenna to 40 meters. it is almost solid wrapped with 18 gauge wire top to bottom minus about 4 inches each end. 
 
 BV: "wrapped with wire bottom to top" -- which is exactly how you make a loaded antenna. Very touchy to tune up and inefficient but with lots to care tuning and trimming of the effective length it should work.
+
+### Q.  What's a good first project for a Raspberry PI?
+
+BV Build a pi-hole to reduce ads and unnecessary web activity. It's educational, fun to see working and useful. [PI-Hole](https://www.raspberrypi.org/blog/pi-hole-raspberry-pi)
