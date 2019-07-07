@@ -21,6 +21,8 @@ BV Build a pi-hole to reduce ads and unnecessary web activity. It's educational,
 
 ### Q. I'm going to take my Ham Radio Technician class test...
 
+My comments in response to a neighbor while chatting on the street.
+
 * Practice the tests at [QRZ.com](https://www.qrz.com/hamtest/)
 * It's made to be passed.  They want you to pass.  Relax!
 * Go to the monthly exam by the [Laurel Group](https://www.laurelvec.com/) at Seattle's [Ada's Technical Book Store](https://www.laurelvec.com/?team=SVET).  The exam is free and they use modern technology to quickly submit test results.  You'll get you license in hours instead of days or weeks.
