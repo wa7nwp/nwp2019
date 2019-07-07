@@ -11,3 +11,5 @@
 * What is Morse Code for "@" - as used in Email addresses.
 
 * What is the difference between Power and Energy?
+
+* What frequencies may a Technician class license holder run (non-CW) data?  CW?
