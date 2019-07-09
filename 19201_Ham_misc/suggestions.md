@@ -27,3 +27,4 @@ My comments in response to a neighbor while chatting on the street.
 * It's made to be passed.  They want you to pass.  Relax!
 * Go to the monthly exam by the [Laurel Group](https://www.laurelvec.com/) at Seattle's [Ada's Technical Book Store](https://www.laurelvec.com/?team=SVET).  The exam is free and they use modern technology to quickly submit test results.  You'll get you license in hours instead of days or weeks.
 * The answer to any question with numbers is the 3rd choice.
+* Learn the speed of light in the metric system and how it applies will let you solve some of the questions and be useful in the future of your Ham experience.
