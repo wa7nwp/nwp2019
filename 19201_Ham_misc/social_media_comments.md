@@ -1,3 +1,9 @@
+## 146.52 Calling Frequency
+
+BV 190709: The problem is there may be folks monitoring on 52 that don't want to list to extended discussions.  I can see them just turning off their radio to deal with the extraneous distracting noise.   
+Perhaps establishing a Tone convention, like APRS Voice Alert, would allow priority calls to be made while keeping the radio quiet for standard traffic.
+
+## ARRL
 
 FB 190707: If we members want to communicate - we can just post on one of the well organized group of Facebook pages. :) (It's not like there are 2 billion other folk finding it useful.)
 
