@@ -6,7 +6,7 @@
 
 ## Someday
 
-+ Ameoco AC1 - or [clone](https://www.etsy.com/listing/460326040/ameco-ac-1-40-m-cw-transmitter-replica)
++ Ameoco AC1 - [New AC1](https://www.thenewameco.com/) or [clone](https://www.etsy.com/listing/460326040/ameco-ac-1-40-m-cw-transmitter-replica)
 + Heath DX-60(b) like I had for Novice station
 + Heath HG-10 VFO and HR-10B receiver to complete the Heath Novice station
 + Modern Antenna Analyzer like the AA-320
