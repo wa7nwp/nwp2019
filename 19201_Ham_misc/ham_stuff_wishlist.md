@@ -2,7 +2,7 @@
 
 ## This Year if Possible
 
-+ Veriactor transformer for powering up old gear with crank capicators
++ Variac transformer for powering up old gear with cranky capacitors
 
 ## Someday
 
@@ -17,3 +17,4 @@
 + Steppir Urban 2 element beam
 + [MISTer FPGA](https://github.com/MiSTer-devel/Main_MiSTer/wiki) game machine emulator 
 + DC triggered [antenna disconnect](https://paradanradio.com/products/antenna-disconnect)
++ BaoFeng VHF amplifier https://baofengtech.com/amp-v25
