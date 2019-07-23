@@ -10,6 +10,8 @@
 + Heath DX-60(b) like I had for Novice station
 + Heath HG-10 VFO and HR-10B receiver to complete the Heath Novice station
 + Modern Antenna Analyzer like the [AA-30](https://rigexpert.com/products/kits-analyzers/aa-30-zero/) or perhaps AA-170
+   + YouKits FG-01 Antenna Analyzer 1-60 MHz
+   + Paul Tomlinson For the amount they cost there’s nothing wrong with the SARK100 or MR300. I have the MR300 and it works well. It can be very accurately calibrated if you construct the required dummy loads.
 + Heath HW=9 QRP station - rig and accessories
 + TenTec Century 21 CW rig
 + Heath HW-16 CW transceiver
