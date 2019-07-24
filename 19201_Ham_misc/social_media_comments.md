@@ -1,5 +1,15 @@
 # NWP Social Media Posts
 
+## Band Edges and LSB on 10 meters
+
+I'm calling CQ on 28.300 MHz with LSB...
+
+BV 190724 - For all the comments, does everybody now understand why LSB on 28.300 is technically illegal in the US? The transmission is still in the 10 meter Ham band but outside of the 10 M Voice segment. LSB is not 'wrong' on 10 meters but it is atypical and may add confusion.
+
+A similar frequency example is APRS packet on the 30 meter band. One valid listing is to say 10.151 MHz dial frequency with LSB - even though that's outside the edge of the Ham band at 10.150 MHz. When a 1.7 KHz tone carrier is modulated on a 10.151 LSB - the result is a carrier on 10.149.3 - which is inside the Ham band and legal.
+
+More reading for somebody that's caught up on FB posts and Netflix shows - http://wa8lmf.net/aprs/SSB_Frequencies.htm
+
 ## Kenwood TH-D74 and ICOM DStar
 
 BV 190709 - Was a firmware update ever released that added DStar slow-slow (900 bps) data to the DStar fast-slow (4800 bps) data initially provisioned in the D74? The slow-slow data is standard with most of the Icom DStar gear.
