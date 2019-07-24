@@ -1,5 +1,12 @@
 # NWP Social Media Posts
 
+## Speed of Light and Length of Antennas
+
+In https://www.kb6nu.com/468-ham-radios-magic-number - he says the 468 has a mysterious past.   Not so mysterious as it's assuming a 95% velocity factor of 492.
+
+Magical 492 is derived from the speed of light - 299.8 million meters per second
+...to be continued
+
 ## Band Edges and LSB on 10 meters
 
 I'm calling CQ on 28.300 MHz with LSB...
