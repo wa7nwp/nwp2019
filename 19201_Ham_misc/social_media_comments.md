@@ -1,5 +1,9 @@
 # NWP Social Media Posts
 
+## Ed Fong J-Pole Antenna
+190724 Ed's three QST articles are interesting and educational. Links to the PDF's are at the bottom of his page here - https://edsantennas.weebly.com/about.html #antenna
+
+
 ## Speed of Light and Length of Antennas
 
 In https://www.kb6nu.com/468-ham-radios-magic-number - he says the 468 has a mysterious past.   Not so mysterious as it's assuming a 95% velocity factor of 492.
