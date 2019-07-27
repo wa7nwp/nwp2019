@@ -3,6 +3,15 @@
 ## Ed Fong J-Pole Antenna
 190724 Ed's three QST articles are interesting and educational. Links to the PDF's are at the bottom of his page here - https://edsantennas.weebly.com/about.html #antenna
 
+190726 J-Pole discussion BV A single band JPole is a 1/4 wave matching section feeding a 1/2 wave radiator.
+
+> Ryan McOmber So, they have a 1/2 wave of signal?
+
+> Ryan McOmber Wish I could find a graph that compares a typical J Pole vs a 5/8 ground plane. The J Pole will only have about 2.2 db gain vs about 6 db gain with the 5/8 ground plane. From what I've read the 5/8 wave ground plane has a more focused radiation pattern that's flatter and projects towards the horizon more over a 1/4 or even a 1/2 wave design.
+
+> Bill Vodall Ryan - that's essentially what I've always heard - 5/8 > 1/2 > 1/4 - each squishing the signal more towards the horizon with the 5/8 having the ultimate squish. Beyond 5/8 signal breaks into multiple lobes.
+5/8 has 1 or 2 db over 1/2 - disadvantage being the 5/8 needs a good ground and a matching coil. That's the advantage of the J-Pole (1/2 wave) no ground needed, area of maximum radiation-current up high physically and a good matching section (the 1/4 wave J)
+
 
 ## Speed of Light and Length of Antennas
 
