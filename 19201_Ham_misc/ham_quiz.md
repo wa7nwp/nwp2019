@@ -1,6 +1,6 @@
 # Fun Ham quiz - what we all should know
 
-* What is the standard non-fiction library number for Ham Radio book?
+* What is the standard non-fiction library number for Ham Radio book?  (For fun - what's your library card number?)
 
 * What is the speed of light - in metric?
 
