@@ -9,7 +9,7 @@ Two nodes is a link - you don't experience the magic of the Mesh.
 
 Three nodes lets you experiment endlessly. You control the software and the locations. You see how the mesh works and its advantages and disadvantages.
 
-(GL-Inet AR150)[https://www.amazon.com/gp/product/B01FJ4S9JK/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=sl1&tag=vodallcom-20&linkId=b210e21952deb5016f3bb16cd8b2dbca&language=en_US]
+[GL-Inet AR150](https://www.amazon.com/gp/product/B01FJ4S9JK/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=sl1&tag=vodallcom-20&linkId=b210e21952deb5016f3bb16cd8b2dbca&language=en_US)
 
 
 
