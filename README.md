@@ -1,6 +1,12 @@
 # nwp2019
 Initial projects for 2019
 
+## Usage
++ git clone https:/github.com/USERNAME/REPOSITORY
++ git add .  # to unstage - git reset HEAD YOUR-FILE
++ git commit -m "add file"
++ git push origin your-branch
+
 ## Legacy web pages - deprecated soon?
 
 + https://wa7nwp.blogspot.com
