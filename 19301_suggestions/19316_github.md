@@ -3,6 +3,8 @@
 
 ## Pages
 * https://pages.github.com/
+* https://24ways.org/2013/get-started-with-github-pages/
+
 ### One page per User or Organization
 + create repo - USERNAME.github.io
 * From external workstation with git installed
