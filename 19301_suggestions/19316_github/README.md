@@ -13,3 +13,8 @@
    + git push -u origin master
 * browse to - https://USER.github.io
 
+### Unlimited pages per projects
+* go to a project, then settings
+   + pages - select All repository or just ./docs
+   + chose a theme - Slate is a good start - select
+* browse to - https://NAME.github.io/REPO-NAME
