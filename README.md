@@ -1,6 +1,7 @@
 # Initial projects for 2019
 * User GitHub page - https://wa7nwp.github.io
 * Primary Project Page - https://wa7nwp.github.io/nwp2019
+* Primary Project Wiki - https://github.com/wa7nwp/nwp2019/wiki
 
 ## Usage
 + To use on Windows : Install [Git For Windows](https://gitforwindows.org/)
