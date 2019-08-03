@@ -20,3 +20,11 @@
    + pages - select All repository or just ./docs
    + chose a theme - Slate is a good start - select
 * browse to - https://USER.github.io/REPO-NAME
+
+
+## WIKI
+GItHub or Mediawiki format
+* https://github.com/gbirke/csv2mediawiki - convert CSV to Mediawiki
+* https://github.com/ubunatic/mm2wiki - mindmap
+* vim wiki to - https://gist.github.com/enpassant/0496e3db19e32e110edca03647c36541
+* https://github.com/SemanticMediaWiki/ - store data in the wiki
