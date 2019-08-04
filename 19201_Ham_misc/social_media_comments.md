@@ -2,6 +2,8 @@
 
 ## APRS Voice Alert
 
+http://www.aprs.org/VoiceAlert3.html
+
 190804 - Travis T - I have a yaesu ftm400 and it has voice alert on the aprs. I have turned it on but does anyone know how it works.
 
 Bill V - Voice Alert is calling and listening for a live voice contact. Great to meet new folk when you're at the radio.
