@@ -1,5 +1,17 @@
 # NWP Social Media Posts
 
+## APRS Voice Alert
+
+190804 - Travis T - I have a yaesu ftm400 and it has voice alert on the aprs. I have turned it on but does anyone know how it works.
+
+Bill V - Voice Alert is calling and listening for a live voice contact. Great to meet new folk when you're at the radio.
+
+Justin Cherington - I don’t think I’ve ever heard the alert.
+
+Bill V Justin - it's not a special sound or notification - it's just a standard APRS AX25 packet that is heard on the radio because it has the 100 Hz tone. When you hear the packets - call for the station who's now in range and move off to another simplex frequency for a chat - perhaps 146.55 or 146.58.
+
+R. Abbott - If you don't turn on Voice Alert, your radio just sends a packet on the frequency. And it will hear packets that come back the radio will unmute the speaker and you will hear a squawk. This is the basic setup. Most people find that annoying after a couple minutes so the turn the volume down. What Voice Alert does, is put a 100Hz tone on both send and receive. This way, your radio will still hear and process standard messages, but won't meet the tone requirements to unmute the speaker. So you won't hear a squawk. And you don't have to turn down the volume. Now, another mobile user comes into your simplex range who also has Voice Alert turned on. That user is transmitting a 100Hz tone that your radio hears. It meets the tone requirements to unmute your speaker and you hear the squawk. This alerts you that there is another mobile user in the area also using APRS. You can contact them back directly on the APRS freq, initiate contact and then QSY to a clear freq to have a ragchew.
+
 ## Ed Fong J-Pole Antenna
 190724 Ed's three QST articles are interesting and educational. Links to the PDF's are at the bottom of his page here - https://edsantennas.weebly.com/about.html #antenna
 
