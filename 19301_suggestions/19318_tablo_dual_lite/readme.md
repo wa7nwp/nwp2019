@@ -2,6 +2,7 @@
 # Tablo Dual Lite - over the air TV video recorder
 
 ## Info
+* [User Guide](https://support.tablotv.com/hc/en-us/sections/200374776-Tablo-User-Guide)
 * [Community Forum](https://community.tablotv.com)
 
 ## Log
