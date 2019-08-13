@@ -1,6 +1,9 @@
 
 # Tablo Dual Lite - over the air TV video recorder
 
+## Info
+* [Community Forum](https://community.tablotv.com)
+
 ## Log
 * New account created
 * using old rabit ears
@@ -9,5 +12,5 @@
 
 ## Questions
 * It reformats the disk - is it Linux using one of the standard Linux formats?
-* Will it work with VLC - apparently yes as a search showed various VLC ap extensions
+* Will it work with VLC - apparently yes as a search showed various VLC ap [extensions](https://www.google.com/search?q=tablo+tv+vlc&oq=tablo+tv+vlc)
 * How do I save video files?   Automatically?  How about editing to trim ends and remove commercials?
