@@ -3,6 +3,7 @@
 
 ## Info
 * [User Guide](https://support.tablotv.com/hc/en-us/sections/200374776-Tablo-User-Guide)
+* [Setup](https://www.tablotv.com/setup-networking/)
 * [Community Forum](https://community.tablotv.com)
 
 ## Log
