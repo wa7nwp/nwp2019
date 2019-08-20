@@ -32,7 +32,13 @@ R. Abbott - If you don't turn on Voice Alert, your radio just sends a packet on 
 In https://www.kb6nu.com/468-ham-radios-magic-number - he says the 468 has a mysterious past.   Not so mysterious as it's assuming a 95% velocity factor of 492.
 
 Magical 492 is derived from the speed of light - 299.8 million meters per second
-...to be continued
+
+Another post re meters and frequencies:
+
+Bill V - 300 is the speed of light in metric. 300 million meters per second.
+
+The 10 meter band is close to 30 Megahertz. The 30 meter band is close to 10 Megahertz. The 6 meter band is close to 50 Megahertz. Thus 'meters' times 'Megahertz' is 300...
+
 
 ## Band Edges and LSB on 10 meters
 
