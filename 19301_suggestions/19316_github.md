@@ -4,6 +4,7 @@
 ## Pages
 * https://pages.github.com/
 * https://24ways.org/2013/get-started-with-github-pages/
+   * https://guides.github.com/activities/hello-world/
 
 ### One page per User or Organization
 + create repo - USERNAME.github.io
