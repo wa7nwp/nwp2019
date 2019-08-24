@@ -1,5 +1,12 @@
 # NWP Social Media Posts
 
+## Getting back into Amateur Radio
+
+190824 - Distracting things of Ham Radio
+* Don't get set up to work the world with low power using FT-8 or WSPR.
+* Don't get a Lime Mini SDR (software defined radio) - it does too many things using cut and paste functionality blocks with GNU radio.
+* Wish I had more time to list all the fun and educational things that can be done with Ham radio today... 
+
 ## APRS Voice Alert
 
 http://www.aprs.org/VoiceAlert3.html
