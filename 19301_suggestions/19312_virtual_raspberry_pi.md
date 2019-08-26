@@ -35,3 +35,9 @@
    * mkdir -p work/vodall ; svn checkout REPOSITORY
    * mkdir -p work/nwp2019 ; git clone NWP2019-public  #  _dev, etc for personal work 
 * Install SEND_IP
+
+## Misc
+* youtube downloader
+    * sudo pip install --upgrade youtiube_dl # from https://ytdl-org.github.io/youtube-dl/download.html
+    * youtube-dl -- xyz
+    * sudo cp xyz.mp4 /host/incoming/video.mkv # to Windows.  Played by VLC on windows
