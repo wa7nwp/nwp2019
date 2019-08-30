@@ -1,5 +1,11 @@
 # NWP Social Media Posts
 
+## Pinning a map with FT-8 at an event
+
+Bill Vodall This was 8 years ago already? We'll be looking forward to signing the W7DK logbook at the fair in a couple weeks. Hopefully they have FT-8 or JS-8 running this year so all the fair visitors can see we Hams easily working the world. Might be fun to put up a map, let folks make contacts (one mouse click) and then put a pin in the map.
+
+Is there some way to reset a callsign so it starts fresh making contacts at an event?
+
 ## Checking out 6 meters
 
 190829 - If you have your radio connected to the computer - check out WSPR on 6 and/or 10 if possible.  There will be days you catch nothing.  Other days when you pick up the world.  Receive only is all you need to start.  This is part of the WSJT-X software package - https://www.physics.princeton.edu/pulsar/K1JT/   A Tech class license has full privileges here.   Good Luck!
