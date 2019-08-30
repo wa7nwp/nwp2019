@@ -1,5 +1,9 @@
 # NWP Social Media Posts
 
+## Checking out 6 meters
+
+190829 - If you have your radio connected to the computer - check out WSPR on 6 and/or 10 if possible.  There will be days you catch nothing.  Other days when you pick up the world.  Receive only is all you need to start.  This is part of the WSJT-X software package - https://www.physics.princeton.edu/pulsar/K1JT/   A Tech class license has full privileges here.   Good Luck!
+
 ## Getting back into Amateur Radio
 
 190824 - Distracting things of Ham Radio
