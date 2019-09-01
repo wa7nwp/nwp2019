@@ -1,5 +1,18 @@
 # NWP Social Media Posts
 
+## Airplane APRS Paths
+
+Q? I am wondering if I need to make any changes other than SSID, station Icon due to use at flying altitudes. Current path is WIDE1-1, WIDE 2-2.
+ 
+190901 WIDE1-1 is asking for help from all the local FILL-IN digipeaters in addition to the high area wide nodes.  An airplane is plenty high and won't need help from the FILL-IN nodes so WIDE1-1 is just bringing up the low level helper nodes.   Something like WIDE2-1 every couple minutes and a null path, no alias, every minute in between.  You can look at the raw packet history on the web sites and see how few of the packets have digi paths which shows how no WIDEn-N is needed.
+
+Q: There is actually a software for the raspberry, on which one can represent a local APRS server with website, similar to aprs.fi? This should be done without internet connection.
+
+190901 - Bill Vodall
+* linbpq also has nearly full features of APRS (and packet) displayed by web page tech.
+* Xastir does have a crude option to save current images for web display - which is what was being asked for. Linbpq has a complete set of APRS pages. These may be customized somewhat to meet local requirements. http://www.cantab.net/.../john.../Documents/BPQWebServer.htm
+* JAVAPRS is an even more complete solution for local display of APRS traffic. http://www.aprs-is.net/javaprs/
+
 ## Pinning a map with FT-8 at an event
 
 Bill Vodall This was 8 years ago already? We'll be looking forward to signing the W7DK logbook at the fair in a couple weeks. Hopefully they have FT-8 or JS-8 running this year so all the fair visitors can see we Hams easily working the world. Might be fun to put up a map, let folks make contacts (one mouse click) and then put a pin in the map.
