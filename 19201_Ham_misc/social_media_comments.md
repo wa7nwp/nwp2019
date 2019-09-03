@@ -1,5 +1,11 @@
 # NWP Social Media Posts
 
+## Power Requirements for Raspberry PI
+
+Q? I see the RPi4B draws up to 900mA in tests - why the 3A PS I wonder?
+
+190903 BV The rPI have 4 USB sockets so the system has to be designed to feed them the required power. Generally 0.5 A per USB or a total additional 2.0 A. If you have no USB devices - less power will be required.
+
 ## Airplane APRS Paths
 
 Q? I am wondering if I need to make any changes other than SSID, station Icon due to use at flying altitudes. Current path is WIDE1-1, WIDE 2-2.
