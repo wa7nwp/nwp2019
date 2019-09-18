@@ -26,8 +26,12 @@
     * apt-purge # FIX
     * apt-clean # FIX
 * Install Local tools
-   * sudo apt-get install subversion
-   * MORE
+   * sudo apt-get install subversion screen vim
+* Install addons - for shared clipboard and screen resizing - recompiles kernel modules...
+   * info - http://www.penguintutor.com/raspberrypi/rpi-desktop-virtualbox
+   * mount ISO - VirtualBox-Devices-mount...
+   * mkterm - cd /media/cdrom0 ; sudo bash VBoxLinuxAdditions.run
+   * reboot
    
 ## Put It To Work
 * Create personal user and set UID/GID
