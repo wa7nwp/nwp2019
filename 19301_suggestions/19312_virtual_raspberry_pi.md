@@ -35,6 +35,8 @@
    
 ## Put It To Work
 * Create personal user and set UID/GID
+* Mount local shared resources
+   * sudo mount -t cifs //...41/incoming /host/incoming -o username=lc,pw=n
 * Set up sandboxes
    * mkdir -p work/vodall ; svn checkout REPOSITORY
    * mkdir -p work/nwp2019 ; git clone NWP2019-public  #  _dev, etc for personal work 
