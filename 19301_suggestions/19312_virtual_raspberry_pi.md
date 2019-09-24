@@ -32,6 +32,9 @@
    * mount ISO - VirtualBox-Devices-mount...
    * mkterm - cd /media/cdrom0 ; sudo bash VBoxLinuxAdditions.run
    * reboot
+* May need the VM to show up on the local network, not hidding on the NAT behind the server
+   * goto VirtualBox - Devices - Network - Network Settings
+   * change type from NAT to Bridged Adapter
    
 ## Put It To Work
 * Create personal user and set UID/GID
@@ -47,3 +50,7 @@
     * sudo pip install --upgrade youtiube_dl # from https://ytdl-org.github.io/youtube-dl/download.html
     * youtube-dl -- xyz
     * sudo cp xyz.mp4 /host/incoming/video.mkv # to Windows.  Played by VLC on windows
+* Simple Web Server - to access files on the virtual host
+    * cd <DIR-WITH-FILES>
+    * python -m SimpleHTTPServer  (or newer, use -m http.simple)
+    * <TODO> website refused to connect
