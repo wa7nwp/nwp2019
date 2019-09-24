@@ -53,4 +53,7 @@
 * Simple Web Server - to access files on the virtual host
     * cd <DIR-WITH-FILES>
     * python -m SimpleHTTPServer  (or newer, use -m http.simple)
-    * <TODO> website refused to connect
+    * use 'ifconfig' to see rPI address.  http://<ADDRESS>:8000
+* Decoding TV downloads
+   * mkdir tv ; cd tv ; git clone https://github.com/wmcbrine/tivodecode-ng
+   * cd tivodecode-ng ; ./configure ; make
