@@ -3,6 +3,18 @@
 * Primary Project Page - https://wa7nwp.github.io/nwp2019
 * Primary Project Wiki - https://github.com/wa7nwp/nwp2019/wiki
 
+## Products
+
+One new product a week - possible?
+
+! Date ! Product ! Status !
+! ;--- ! ;---;   ! ---; !
+! 9/28/2019 ! TBD ! TBD !
+! 9/21/2019 ! Productor ! Prelim Design !
+! 9/14/2019 ! x ! x !
+! 9/7/2019 ! t2t ! x !
+! 8/30/2019 ! x ! x !
+
 ## Usage
 + To use on Windows : Install [Git For Windows](https://gitforwindows.org/)
 + git clone https:/github.com/USERNAME/REPOSITORY
