@@ -7,13 +7,13 @@
 
 One new product a week - possible?
 
-! Date ! Product ! Status !
-! ;--- ! ;---;   ! ---; !
-! 9/28/2019 ! TBD ! TBD !
-! 9/21/2019 ! Productor ! Prelim Design !
-! 9/14/2019 ! x ! x !
-! 9/7/2019 ! t2t ! x !
-! 8/30/2019 ! x ! x !
+| Date | Product | Status |
+| ;--- | ;---;  | ---; |
+| 9/28/2019 | TBD ! TBD |
+| 9/21/2019 | Productor | Prelim Design |
+| 9/14/2019 | x ! x |
+| 9/7/2019 | t2t | x |
+| 8/30/2019 | x | x |
 
 ## Usage
 + To use on Windows : Install [Git For Windows](https://gitforwindows.org/)
