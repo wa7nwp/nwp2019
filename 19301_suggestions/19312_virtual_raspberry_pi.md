@@ -48,11 +48,15 @@
        * username=WINDOWS-USERNAME
        * password=WINDOWS-PASSWORD
    * chmod 600 /home/pi/.smbcred
-   * append to /etc/fstab
-       * //HDD.. /media/incoming cifs x-system.automount,users,credentials=/home/pi/.smbcred 0 0
-* Set up sandboxes
-   * mkdir -p work/vodall ; svn checkout REPOSITORY
-   * mkdir -p work/nwp2019 ; git clone NWP2019-public  #  _dev, etc for personal work 
+   * append to /etc/fstab, Assumes the share *incoming* is available from Host. HOST IP address is tricky as it may change when the workstation associates on different networks.  TODO - research use of addition network interface that doesn't change.
+       * //HOST/incoming. /media/incoming cifs x-system.automount,users,credentials=/home/pi/.smbcred 0 0
+   * Request mount - use -v for verbose if necessary
+       * mount -at cifs -v
+* Set up source control sandboxes
+   * mkdir -p work/vodall
+   * svn checkout REPOSITORY
+   * mkdir -p work/nwp2019
+   * git clone NWP2019-public  #  _dev, etc for personal work 
    * ... others ...
 * Install SEND_IP
 
