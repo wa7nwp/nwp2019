@@ -26,7 +26,7 @@
     * apt-purge # FIX
     * apt-clean # FIX
 * Install Local tools
-   * sudo apt-get install subversion screen vim
+   * sudo apt-get install subversion screen vim time telnet ftp
 * Install addons - for shared clipboard and screen resizing - recompiles kernel modules...
    * info - http://www.penguintutor.com/raspberrypi/rpi-desktop-virtualbox
    * mount ISO - VirtualBox-Devices-mount...
@@ -38,11 +38,22 @@
    
 ## Put It To Work
 * Create personal user and set UID/GID
-* Mount local shared resources
-   * sudo mount -t cifs //...41/incoming /host/incoming -o username=lc,pw=n
+* Mount local shared resources - temporary
+   * sudo mount -t cifs //...41/incoming /host/incoming -o username=lc,pw=n,file_mode=0777,dir+mode=0777,iocharset=utf8
+* Mount local file (/work/incoming) always
+   * from - https://raspberrypi.stackexchange.com/questions/85182/how-can-i-add-shared-drives-to-raspberry-pi-3
+   * sudo mkdir /media/incoming
+   * sudo chown pi:pi /media/incoming
+   * create /home/pi/.smbcred
+       * username=WINDOWS-USERNAME
+       * password=WINDOWS-PASSWORD
+   * chmod 600 /home/pi/.smbcred
+   * append to /etc/fstab
+       * //HDD.. /media/incoming cifs x-system.automount,users,credentials=/home/pi/.smbcred 0 0
 * Set up sandboxes
    * mkdir -p work/vodall ; svn checkout REPOSITORY
    * mkdir -p work/nwp2019 ; git clone NWP2019-public  #  _dev, etc for personal work 
+   * ... others ...
 * Install SEND_IP
 
 ## Misc
