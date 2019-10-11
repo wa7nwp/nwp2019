@@ -73,4 +73,5 @@
    * mkdir tv ; cd tv ; git clone https://github.com/wmcbrine/tivodecode-ng
    * cd tivodecode-ng ; ./configure ; make
 * Misc
-   * https://www.makeuseof.com/tag/host-wordpress-raspberry-pi/   
+   * https://www.makeuseof.com/tag/host-wordpress-raspberry-pi/
+   * https://github.com/AG7GN/autohotspot
