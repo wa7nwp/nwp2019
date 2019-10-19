@@ -5,10 +5,10 @@ I had a Linux primarily laptop a few years ago.  It was a 486 DX 50 MHz.   The m
 
 ## Live Raspberry PI Linux
 
-* Download .iso from ...
-* Fetch Rufi..
+* Download Debian Buster Raspberry pi ISO from https://www.raspberrypi.org/downloads/raspberry-pi-desktop/
+* Fetch Rufus..  https://rufus.ie/
 * Found a 16 Git FIT thumb drive.  The FIT drives have a small form factor and are easy to not even notice.
-* Used Rufi (sp) to make the thumb drive bootable, create partitions and copy over the .ISO files
+* Used Rufus to make the thumb drive bootable, create partitions and copy over the .ISO files
 * Finally caught the boot screen long enough to notice that F2 (not shifted) was the interrupt the boot process key
 * Changed boot sequence from ( HD .. USB .. ) to ( USB HD .. .. )
 * Rebooted to Linux
