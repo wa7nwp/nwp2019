@@ -60,7 +60,7 @@
    * ... others ...
 * Install SEND_IP
 
-## Misc
+## Misc (this should be a page of its own...)
 * youtube downloader
     * sudo pip install --upgrade youtiube_dl # from https://ytdl-org.github.io/youtube-dl/download.html
     * youtube-dl -- xyz
@@ -75,3 +75,8 @@
 * Misc
    * https://www.makeuseof.com/tag/host-wordpress-raspberry-pi/
    * https://github.com/AG7GN/autohotspot
+* JNOS
+   * Install prereqs - apt-get install libncursesw5-dev libssl-dev (build-essential?)
+   * Fetch source - mkdir src ; cd src ; rsync -av www.langelaar.net::jnos2NR . ;; don't miss the last dot '.'
+   * Configure - ./configure
+   * Build - make
