@@ -75,7 +75,8 @@
 * Misc
    * https://www.makeuseof.com/tag/host-wordpress-raspberry-pi/
    * https://github.com/AG7GN/autohotspot
-* JNOS
+* JNOS2
+   * Info at - https://www.langelaar.net/jnos2/
    * Install prereqs - apt-get install libncursesw5-dev libssl-dev (build-essential?)
    * Fetch source - mkdir src ; cd src ; rsync -av www.langelaar.net::jnos2NR . ;; don't miss the last dot '.'
    * Configure - ./configure
