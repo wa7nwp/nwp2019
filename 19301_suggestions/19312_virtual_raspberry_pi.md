@@ -60,7 +60,8 @@
    * ... others ...
 * Install SEND_IP
 
-## Misc (this should be a page of its own...)
+## Misc
+This section should be a page of its own...
 * youtube downloader
     * sudo pip install --upgrade youtiube_dl # from https://ytdl-org.github.io/youtube-dl/download.html
     * youtube-dl -- xyz
