@@ -3,6 +3,9 @@
 
 I had a Linux primarily laptop a few years ago.  It was a 486 DX 50 MHz.   The memory was a small CF (compact flash) memory card in an IDE adapter - from Tapr.org I believe.
 
+## INFO
++ https://www.pendrivelinux.com
+
 ## Live Raspberry PI Linux
 
 * Download Debian Buster Raspberry pi ISO from https://www.raspberrypi.org/downloads/raspberry-pi-desktop/
