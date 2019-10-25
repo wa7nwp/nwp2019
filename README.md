@@ -39,3 +39,7 @@
 ## Useful Web Sites
 + https://wetnet.net
 + https://hamwan.org
+
+## GitHub usage
++ https://guides.github.com/features/mastering-markdown/
++ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
