@@ -2,10 +2,10 @@
 
 ## Install Oracle Virtual Box
 * Install or upgrade to recent version.  I was at 4.x, now at 6.0.?
-* Download from -
+* Download from - https://www.virtualbox.org/
 
 ## Download Debian with Raspberry PI desktop
-* go to - 
+* go to - (I think) - https://www.raspberrypi.org/downloads/raspberry-pi-desktop/
 * It's 2.5 GB so plan accordingly
 
 ## Create New Virtual machine 
