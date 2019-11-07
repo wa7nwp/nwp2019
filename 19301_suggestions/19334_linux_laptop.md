@@ -4,7 +4,8 @@
 I had a Linux primarily laptop a few years ago.  It was a 486 DX 50 MHz.   The memory was a small CF (compact flash) memory card in an IDE adapter - from Tapr.org I believe.
 
 ## INFO
-+ https://www.pendrivelinux.com
+* local - https://github.com/wa7nwp/nwp2019/edit/master/19301_suggestions/19312_virtual_raspberry_pi.md
+* https://www.pendrivelinux.com
 
 ## Live Raspberry PI Linux
 
