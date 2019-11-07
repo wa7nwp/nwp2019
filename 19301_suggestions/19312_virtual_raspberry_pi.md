@@ -1,4 +1,6 @@
 # Running Raspberry PI Virtual Computer on Workstation
+* Other local info - https://github.com/wa7nwp/nwp2019/blob/master/19301_suggestions/19334_linux_laptop.md
+* https://thepi.io/how-to-run-raspberry-pi-desktop-on-windows-or-macos/
 
 ## Install Oracle Virtual Box
 * Install or upgrade to recent version.  I was at 4.x, now at 6.0.?
