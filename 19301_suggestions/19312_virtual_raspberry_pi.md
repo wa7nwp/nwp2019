@@ -85,3 +85,10 @@ This section should be a page of its own...
    * Fetch source - mkdir src ; cd src ; rsync -av www.langelaar.net::jnos2NR . ;; don't miss the last dot '.'
    * Configure - ./configure
    * Build - make
+
+## Future VirtualBox Opportunites
+* FreeDOS - http://wiki.freedos.org/wiki/index.php/VirtualBox
+   * exchanging files with host - https://www.lazybrowndog.net/freedos/virtualbox/?page_id=495
+   * MSDOS - https://www.instructables.com/id/How-To-Install-DOS-622-Under-VirtualBox/
+* Android - https://www.howtogeek.com/164570/how-to-install-android-in-virtualbox/
+* Flex 680? - http://www.evenson-consulting.com/swtpc/
