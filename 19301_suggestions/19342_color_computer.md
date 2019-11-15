@@ -1,4 +1,20 @@
-# Color Computer by Radio Shack
+# Eight Bit Era
+
+## Motorola 680? and Hitachi 630?
++ https://github.com/jedie/DragonPy/blob/master/README.creole
++ Xroar
++ https://github.com/aladur/flexemu - Flexemu is a Motorola MC6809 emulator running FLEX.
+   + https://flexemu.neocities.org/
++ http://www.evenson-consulting.com/swtpc/default.htm
++ http://www.flexusergroup.com/flexusergroup/fug8.htm - FLEX user group emulators
++ https://ibiblio.org/pub/linux/system/emulators/!INDEX.html
+
+## Color Computer by Radio Shack
++ http://imacoconut.com/start-here/
++ CoCOPi - 
++ https://github.com/RetroPie/RetroPie-Setup/wiki/Coco
++ https://pypi.org/project/DragonPyEmulator/ - Python emulator
++ https://www.thingiverse.com/thing:2247877
 
 ## MC-10 Little Brother
 + https://github.com/ebonhand09/Chip09
