@@ -11,6 +11,27 @@
 + Mess/MANE
 + FlexEMU https://github.com/aladur/flexemu - Flexemu is a Motorola MC6809 emulator running FLEX.
    + https://flexemu.neocities.org/
+   + Try FlexEMU on rPI Linux - access via SCREEN should be interesting
+   + I once had a small set of commands that were in memory and part of the EPROM.  Recreate this..
+   + To Do
+      + docs on extra commands, like CC, on main system disk
+      + Create a new system disk and boot from it.  
+      + Setup to compile flexplorer.exe and fsetup.exe so I can tweak them
+      + Is there a VI
+      + Is there a restart/reboot command?
+   + Commands to remember
+      + list [drive] [matching text]
+      + ASN W|S =A for any
+      + Build - enter text until '#'
+      + Exec - run a text file
+      + flexemc -C "list 1:list 0:exit" - to run commands and exit  How save output to file?
+      + copy 0 1 - copy all files
+   + To Recover
+      + SPLM09
+      + Small C
+      + Basic Accounting Software
+   + Did
+      + Created large drive with 200 tracks and 80 sectors for about 10 MB.  Copied 0, 1 and 2 to it.
 + ReFLEX
 + http://www.evenson-consulting.com/swtpc/default.htm
 + https://nowhereman999.wordpress.com/2017/06/19/coco-6809-assembly-on-a-modern-computer/
