@@ -3,11 +3,20 @@
 ## Motorola 680? and Hitachi 630?
 + https://github.com/jedie/DragonPy/blob/master/README.creole
 + Xroar
-+ https://github.com/aladur/flexemu - Flexemu is a Motorola MC6809 emulator running FLEX.
-   + https://flexemu.neocities.org/
-+ http://www.evenson-consulting.com/swtpc/default.htm
 + http://www.flexusergroup.com/flexusergroup/fug8.htm - FLEX user group emulators
 + https://ibiblio.org/pub/linux/system/emulators/!INDEX.html
++ http://atjs.mbnet.fi/mc6809/ - 6809 Emulation Page
+
+## FLEX (by TSC) Operating System for 6800 and 6809
++ Mess/MANE
++ FlexEMU https://github.com/aladur/flexemu - Flexemu is a Motorola MC6809 emulator running FLEX.
+   + https://flexemu.neocities.org/
++ ReFLEX
++ http://www.evenson-consulting.com/swtpc/default.htm
++ https://nowhereman999.wordpress.com/2017/06/19/coco-6809-assembly-on-a-modern-computer/
++ FHL (Frank Hogg Labs) had Flex for Color Computer
+   + Look at the F50x files under the CoCo heading near the top of the page. Two versions are available, F502 and F503 of FHL's Color Flex for testing. - http://www.evenson-consulting.com/swtpc/fufu_downloads.htm
+   + http://os9projects.com/CD_Archive/PRODUCTS/FHL/SoftNews_N01.pdf - FHL Newsletter
 
 ## Retroshield 6809
 An Arduino Mega emulates the components to a 6809 system.
