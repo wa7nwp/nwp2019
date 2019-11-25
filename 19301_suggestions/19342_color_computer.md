@@ -11,27 +11,35 @@
 + Mess/MANE
 + FlexEMU https://github.com/aladur/flexemu - Flexemu is a Motorola MC6809 emulator running FLEX.
    + https://flexemu.neocities.org/
-   + Try FlexEMU on rPI Linux - access via SCREEN should be interesting
+   + Try FlexEMU on rPI Linux - command line only - access via SCREEN should be interesting
    + I once had a small set of commands that were in memory and part of the EPROM.  Recreate this..
-   + To Do
-      + docs on extra commands, like CC, on main system disk
-      + Create a new system disk and boot from it.  
-      + Setup to compile flexplorer.exe and fsetup.exe so I can tweak them
-      + Is there a VI
-      + Is there a restart/reboot command?
-   + Commands to remember
+   + Questions
+      + Which CC is on the main disk?  Docs?  Example?  (Hello world?)
+      + Where is TSC Basic, others?
+      + db of commands (files) and disks for searching like apropos+
+      + exit - quits.  Is there a reset/reboot?  Like MON - K
+      + VI?   VED?
+   * Setup to compile flexplorer.exe and fsetup.exe so I can tweak them
+   + Commands to remember - examples
       + list [drive] [matching text]
       + ASN W|S =A for any
       + Build - enter text until '#'
       + Exec - run a text file
       + flexemc -C "list 1:list 0:exit" - to run commands and exit  How save output to file?
       + copy 0 1 - copy all files
-   + To Recover
+      + example - how to make an .ASM file that says HELLO Bill
+      + steps to create a new bootable system disk
+   + To Recover from my archives
       + SPLM09
       + Small C
       + Basic Accounting Software
    + Did
-      + Created large drive with 200 tracks and 80 sectors for about 10 MB.  Copied 0, 1 and 2 to it.
+      + 191123 updated from 2.21 to 2.23.  Moved one install to c:\work\flex\flexemu instead of in Program Files"
+      +  Noticed the installer for all of the flex files.  gold mine.  Any searchable DB of files?
+      + 191120 Created large drive with 200 tracks and 80 sectors for about 10 MB.  Copied 0, 1 and 2 to it.
+   * Possible extensions 
+      + Print (spooler) to print to file on host system.  Named with date
+      + Extend web demo to take any commands
 + ReFLEX
 + http://www.evenson-consulting.com/swtpc/default.htm
 + https://nowhereman999.wordpress.com/2017/06/19/coco-6809-assembly-on-a-modern-computer/
