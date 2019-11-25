@@ -14,7 +14,8 @@
    + Try FlexEMU on rPI Linux - command line only - access via SCREEN should be interesting
    + I once had a small set of commands that were in memory and part of the EPROM.  Recreate this..
    + Questions
-      + Which CC is on the main disk?  Docs?  Example?  (Hello world?)
+      + Which CC is on the main disk?  Docs?  The name is mentioned but I forgot where
+         + Examples:  source.dsk: prim7.c, eulc.c 
       + Where is TSC Basic, others?
       + db of commands (files) and disks for searching like apropos+
       + exit - quits.  Is there a reset/reboot?  Like MON - K
@@ -24,6 +25,7 @@
       + list [drive] [matching text]
       + ASN W|S =A for any
       + Build - enter text until '#'
+      + browse and fdir
       + Exec - run a text file
       + flexemc -C "list 1:list 0:exit" - to run commands and exit  How save output to file?
       + copy 0 1 - copy all files
