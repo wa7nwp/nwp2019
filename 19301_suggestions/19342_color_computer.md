@@ -59,7 +59,8 @@ An Arduino Mega emulates the components to a 6809 system.
 
 ## Color Computer by Radio Shack
 + http://imacoconut.com/start-here/
-+ CoCOPi - 
++ CoCOPi -
++ http://imacoconut.com/emulators/
 + https://github.com/RetroPie/RetroPie-Setup/wiki/Coco
 + https://pypi.org/project/DragonPyEmulator/ - Python emulator
 + https://www.thingiverse.com/thing:2247877
