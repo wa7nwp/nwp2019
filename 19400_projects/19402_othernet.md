@@ -4,8 +4,10 @@
 + main docs - wiki
 * User Guide by user
 * John's Blog
-* Ham Radio - APRS .  
-* Ham Radio - WSPR
+* Ham Radio - APRS - http://aprs.org/outnet.html
+* Ham Radio - WSPR - http://aprs.org/aprs-wspr.html
+* https://swling.com/blog/tag/outernet-lantern/
+
 
 ## Setup
 ### Gather required components
