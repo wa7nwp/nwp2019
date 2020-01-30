@@ -7,7 +7,8 @@
 * Ham Radio - APRS - http://aprs.org/outnet.html
 * Ham Radio - WSPR - http://aprs.org/aprs-wspr.html
 * https://swling.com/blog/tag/outernet-lantern/
-
+* Tech Minds 13m https://m.youtube.com/watch?v=KCewB_PuvDk
+* old https://hackaday.com/2017/06/20/testing-the-outernet-dreamcatcher-sdr/
 
 ## Setup
 ### Gather required components
