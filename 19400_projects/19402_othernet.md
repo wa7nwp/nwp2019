@@ -46,9 +46,9 @@
 * To copy content on the dreamcatcher which will time to a local system.
    * rsync -e ssh user.ow@DC/dir/dir/* /local/dir
    * ... untested ...
-* See APRS traffic by callsign
-   * Login DC
+* See APRS traffic by *callsign*
+   * Login to system with Dreamcatcher data
    * cd /datadir/
-   * grep -i --recurse? *
+   * grep -i -r *callsign* *
    * ... Untested ...
 
