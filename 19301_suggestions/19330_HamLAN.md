@@ -46,6 +46,10 @@ Old mesh running on mostly on blue box WRT54G for a fall back basic network
   + 3600 IP mesh - backup for winlink AP's.
   + Streaming Video Cam
   
+  ## HamLAN
+  + https://cdine.org/2017-11-19-portable-hamwan-station/#2017-11-19-portable-hamwan-station
+  + http://hamwan.org
+  
   ## LoRa
   + Ihttps://inductivetwig.com/products/hamshield-lora-edition-high-power - 1 watt
   + https://hackaday.io/project/170069-disaster-radio-lora-mesh
