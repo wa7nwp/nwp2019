@@ -45,4 +45,9 @@ Old mesh running on mostly on blue box WRT54G for a fall back basic network
   + VoIP asteresk (SECN...)
   + 3600 IP mesh - backup for winlink AP's.
   + Streaming Video Cam
+  
+  ## LoRa
+  + Ihttps://inductivetwig.com/products/hamshield-lora-edition-high-power - 1 watt
+  + https://hackaday.io/project/170069-disaster-radio-lora-mesh
+  + https://github.com/dmahony/LoRa-AX25-IP-Network - TCP/IP on LoRa on AX25 or somethine like that
     
