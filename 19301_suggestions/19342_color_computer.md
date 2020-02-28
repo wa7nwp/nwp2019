@@ -6,6 +6,7 @@
 + http://www.flexusergroup.com/flexusergroup/fug8.htm - FLEX user group emulators
 + https://ibiblio.org/pub/linux/system/emulators/!INDEX.html
 + http://atjs.mbnet.fi/mc6809/ - 6809 Emulation Page
++ http://www.searle.wales/ - simple 6809 computer
 
 ## FLEX (by TSC) Operating System for 6800 and 6809
 + Mess/MANE
