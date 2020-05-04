@@ -4,6 +4,7 @@
 
 ### IC-7100
 + http://www.n4rfc.com/?p=1419
++ https://www.icomamerica.com/en/products/amateur/hf/rsba1/default.aspx
 
 ### FSQ Bellingham
 
