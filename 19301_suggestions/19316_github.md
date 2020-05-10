@@ -6,6 +6,12 @@
 * https://24ways.org/2013/get-started-with-github-pages/
    * https://guides.github.com/activities/hello-world/
 
+## RSS Feed
+Would be ideal to have a click to show recent, yesterday - last week - last month - etc, changes.
++ https://dzhavat.github.io/2020/01/19/adding-an-rss-feed-to-github-pages.html
++ https://github.com/jekyll/jekyll-feed
++ https://feedly.com/i/welcome
+
 ### One page per User or Organization
 + create repo - USERNAME.github.io
 * From external workstation with git installed
