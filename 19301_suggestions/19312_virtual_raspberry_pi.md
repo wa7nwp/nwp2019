@@ -27,9 +27,10 @@
     * apt-remove wolfgang* ## I didn't see this in current install
     * apt-remove libre-office*
     * apt-purge # FIX
-    * apt-clean # FIX
+    * apt-get clean # or clean-only # to remove old packages from /var/cache/apt/archives
 * Install Local tools
-   * sudo apt-get install subversion screen vim time telnet ftp
+   * sudo apt-get install subversion screen vim time telnet ftp 
+   * 
 * Install addons - for shared clipboard and screen resizing - recompiles kernel modules...
    * info - http://www.penguintutor.com/raspberrypi/rpi-desktop-virtualbox
    * mount ISO - VirtualBox-Devices-mount...
@@ -38,6 +39,14 @@
 * May need the VM to show up on the local network, not hidding on the NAT behind the server
    * goto VirtualBox - Devices - Network - Network Settings
    * change type from NAT to Bridged Adapter
+* Change hostname
+   * # default name is *raspberrypi*  On server *lomo* I changed it to *lomopi*
+   * edit /etc/hosts and change last line
+   * edit /etc/hostname if it exists and change name
+   * if it exists, run - /etc/init.d/hostname
+   * reboot
+* Use or update update config tool
+   * sudo raspi-update
    
 ## Put It To Work
 * Create personal user and set UID/GID
