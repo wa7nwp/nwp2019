@@ -21,27 +21,30 @@ Bill Vodall - Just be sure to clear the option to keep existing settings. Memory
 # Installing AREDN Mesh - quick path
 + AREDN home page - https://www.arednmesh.org/
 + Supported Platform Matrix - https://www.arednmesh.org/content/supported-platform-matrix
-+ [Overview]{https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/aredn_overview.html}
++ [Overview](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/aredn_overview.html)
 
 ## Download firmware
-+ [Firmware To Download](http://downloads.arednmesh.org/firmware/html/stable.html}
++ [Firmware To Download](http://downloads.arednmesh.org/firmware/html/stable.html)
    + GL-AR150 - for new install or upgrade - get sysupgrade .bin file  currently: aredn-3.20.3.0-ath79-glinet_gl-ar150-sysupgrade.bin
    + GL-AR750 - for new install or upgrade - get sysupgrade .bin file currently: aredn-3.20.3.0-ar71xx-gl-ar750-sysupgrade.bin
 
 ## Upload Firmware
-+ [GL-Inet Install Process]{https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html#gl-inet-first-install-process}
++ [GL-Inet Install Process](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html#gl-inet-first-install-process)
 + Install antenna if needed, attach power and boot router
-+ set IP on configuring computer
++ GL-Inet have default IP of 192.168.8.1 set IP on configuring computer to 192.168.8.20
 + log in to router
-+ go to admin page
++ go to admin page - upgrade - local upgrades
 + UNCHECK THE BOX TO KEEP SETTINGS!
 + and upload new file WAIT UNTIL IT IS DONE
-+ IP address will have changed.  Change new address on configuring computer
++ IP address on routher will have changed.  It is now 192.168.1.1.
++ Set computer to use DHCP and unplug and replug Ethernet to get new IP address.  Or enter 192.168.1.20
 
-## configure node
-+ log in
-+ set name
-+ reboot
+## Configure Node
++ log in to the NOBOOT page.
++ set name - **callsign-something**
++ set password and password verification
++ save changes and reboot
++ login at http://localnode.local.mesh  or use ipconfig/ifconfig to get IP adddress of gateway
 
 ## Configure Tunnel
 
