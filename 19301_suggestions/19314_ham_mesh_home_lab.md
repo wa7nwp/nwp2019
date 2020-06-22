@@ -16,17 +16,20 @@ Chad S - Out of the box it's a no-brainer. The router already has OpenWRT on it.
 
 Bill Vodall - Just be sure to clear the option to keep existing settings. Memory footprint is totally different and if you preserve the settings all sorts of weirdness happens. Fortunately there's an easy fix..
 
+> https://www.markdownguide.org/basic-syntax
 
 # Installing AREDN Mesh - quick path
 + AREDN home page - https://www.arednmesh.org/
 + Supported Platform Matrix - https://www.arednmesh.org/content/supported-platform-matrix
++ [Overview]{https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/aredn_overview.html}
 
 ## Download firmware
-+ primary page - http://downloads.arednmesh.org/firmware/html/stable.html
++ [Firmware To Download](http://downloads.arednmesh.org/firmware/html/stable.html}
    + GL-AR150 - for new install or upgrade - get sysupgrade .bin file  currently: aredn-3.20.3.0-ath79-glinet_gl-ar150-sysupgrade.bin
    + GL-AR750 - for new install or upgrade - get sysupgrade .bin file currently: aredn-3.20.3.0-ar71xx-gl-ar750-sysupgrade.bin
 
 ## Upload Firmware
++ [GL-Inet Install Process]{https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html#gl-inet-first-install-process}
 + Install antenna if needed, attach power and boot router
 + set IP on configuring computer
 + log in to router
