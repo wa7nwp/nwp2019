@@ -40,7 +40,7 @@ Bill Vodall - Just be sure to clear the option to keep existing settings. Memory
 + Set computer to use DHCP and unplug and replug Ethernet to get new IP address.  Or enter 192.168.1.20
 
 ## Configure Node
-+ log in to the NOBOOT page.
++ log in to the NOBOOT page. user = ‘root’ password = ‘hsmm’
 + set name - **callsign-something**
 + set password and password verification
 + save changes and reboot
