@@ -17,4 +17,24 @@ Chad S - Out of the box it's a no-brainer. The router already has OpenWRT on it.
 Bill Vodall - Just be sure to clear the option to keep existing settings. Memory footprint is totally different and if you preserve the settings all sorts of weirdness happens. Fortunately there's an easy fix..
 
 
+# Installing AREDN Mesh
+
+## Download firmware
++ primary page
++ AR-150
++ AR-750
+
+## Upload Firmware
++ boot router
++ set IP on configuring computer
++ log in to router
++ go to admin page and upload new file WAIT UNTIL IT IS DONE
++ IP address will have changed.  Change new address on configuring computer
+
+## configure node
++ log in
++ set name
++ reboot
+
+## Configure Tunnel
 
