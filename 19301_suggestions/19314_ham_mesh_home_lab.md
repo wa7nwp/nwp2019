@@ -43,8 +43,8 @@ Bill Vodall - Just be sure to clear the option to keep existing settings. Memory
 + log in to the NOBOOT page. user = ‘root’ password = ‘hsmm’
 + set name - **callsign-something**
 + set password and password verification
-+ save changes and reboot
-+ login at http://localnode.local.mesh  or use ipconfig/ifconfig to get IP adddress of gateway
++ save changes and reboot.
++ login at http://localnode.local.mesh:8089  or use ipconfig/ifconfig to get IP adddress of gateway. 'ip route' for newer Linux boxes unless deprecated ifconfig is installed (sudo apt install net-tools.)
 
 ## Configure Tunnel
 
