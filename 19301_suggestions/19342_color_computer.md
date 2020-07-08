@@ -12,9 +12,17 @@
 ## FLEX (by TSC) Operating System for 6800 and 6809
 + Mess/MANE
 + http://www.smokingcircuit.com/mc6800.html
++ Installable archive of flex old disks - HistoricFLEXFiles-Setup-1.00.exe - downloads at https://flexemu.neocities.org/
+    + Downloads 17 MB, unpacks to 270 MB, 250 files in 9 folders
+    + Creates document for browsing 
+    + Installs into /user/public/.. folder on windows which is good place for shared documents
 + FlexEMU https://github.com/aladur/flexemu - Flexemu is a Motorola MC6809 emulator running FLEX.
-   + https://flexemu.neocities.org/
-   + Try FlexEMU on rPI Linux - command line only - access via SCREEN should be interesting
+   + [FlexEmu Home Page](https://flexemu.neocities.org/)
+   + Try FlexEMU on rPI Linux - command line only -t access via SCREEN should be interesting - confirmed it works well.
+   + Utilities - FlexEmu disk has a mix of primary utilities and much more
+       + utility disk
+       + Flex 9 (6809) User manual
+       + Windrush Systems Utilities manual
    + I once had a small set of commands that were in memory and part of the EPROM.  Recreate this..
    + Questions
       + Which CC is on the main disk?  Docs?  The name is mentioned but I forgot where
