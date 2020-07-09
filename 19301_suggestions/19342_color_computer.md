@@ -18,6 +18,9 @@
     + Installs into /user/public/.. folder on windows which is good place for shared documents
 + FlexEMU https://github.com/aladur/flexemu - Flexemu is a Motorola MC6809 emulator running FLEX.
    + [FlexEmu Home Page](https://flexemu.neocities.org/)
+       + [FlexEmu Man page](https://github.com/aladur/flexemu/blob/master/doc/flexemu.htm)
+       + [FlexEmu Filesystem support](https://github.com/aladur/flexemu/blob/master/doc/flexfs.htm) dsktool .. mount, info, umount
+       + [FlexEmu Utilities](https://github.com/aladur/flexemu/blob/master/doc/flexutil.htm) - emu .. 
    + Try FlexEMU on rPI Linux - command line only -t access via SCREEN should be interesting - confirmed it works well.
    + Utilities - FlexEmu disk has a mix of primary utilities and much more
        + utility disk
