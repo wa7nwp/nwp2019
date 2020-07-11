@@ -6,7 +6,8 @@
     + setup-x86.exe -q -P pkgname,pgkname
     + alias cyg-get="setup-x86.exe -q -P "  # usage  cyg-get pkgname
     + screen, procps includes top utility, no ntop or htop
-    + how search for a command (like top) in a package (like procps)
+    + how search for a command (like top) in a package (like procps)?
+    + 3rd party cyg-get tool : http://tutorialspots.com/how-to-add-packages-after-install-cygwin-3237.html
 + Installing sshd to allow incoming
     + install cygsshd
     + /usr/bin/ssh-host-config
