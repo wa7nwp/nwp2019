@@ -36,6 +36,10 @@
     + arp maxq 10
     + ip hp tun0 on
     + route add default tun0 10.61.155.64
++ Edit *domain.txt*
+    + call   10.61.155.163
+    + nwpe31 10.61.155.164 # ip address of the rPI
+    + mesh   10.61.155.161 # ip address of the mesh routerk0wk
     
 + ./jnosinstaller_pi  # run the installer
    + install
