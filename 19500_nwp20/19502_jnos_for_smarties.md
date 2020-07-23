@@ -16,17 +16,16 @@ JNOS has two modes
 + Client(s) - when making use of networking functionality.
 
 ## Basic Command Operation
-JNOS has a handy shortcut of commands.  Only the first relevate letters are needed.  For example, the commands *help* and *hecho*.
-the first two letters, *he* and common.   So you have to give three at least.  For *help*, enter *hel* or *help*.  For *hecho* enter *hec*
-*hech* or *hecho*
+JNOS has a handy shortcut of commands.  Only the first relevate letters are needed.  For example, the commands *echo* and *eol*.
+the first letter, *e* is common.   So you have to give two at least.  For *echo*, enter *ec* or *echo*.  For *eol* enter *eo* or *eol*
 
-* To list the commands availble, enter "?" or "help" at the command prompt *+++*
-* For more info on any one command, (like *hecho*..)  enter *help hecho*.   All the help text is contained in individual files
-in the jnos-home/help folder.
-* To quit, enter ex(it).   You will be prompted if you really want to exit
+* To list the commands availbale, enter "?" at the command prompt *jnos>*
+* For more info on any one command, (like *echo*..)  enter *help echo*.   All the help text is contained in individual files
+in the jnos-home/help folder.  The same command shortcuts work so *he ec* is the same as *help echo*.
+* To quit, enter *ex(it)*.   You will be prompted if you really want to exit.
 
 ### OS commands
-* JNOS has basic commands of a file operating system.  dir, list, cd
+* JNOS has basic commands of a file operating system.  *dir*, *list*, *cd*
 
 ### BBS 
 * Logging in is the equivalent to entering the BBS.  This may be done with the *bbs* or *telnet* commands.
