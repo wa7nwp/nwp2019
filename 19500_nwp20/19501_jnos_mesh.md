@@ -12,7 +12,16 @@
 + sh setup
 + mv jnos_pi jnos
 + chmod +x jnos jnosinstaller_pi
-+ rm jnos2pi
++ rm jnos2pi  # this is an artifact of the fetch command.  Soon to be resolved.
++ Find the IP address assigned by AREDN mesh.  Run the command *ipconfig eth0*.  Look for inet line
+   + eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+   + inet 10.61.155.164  netmask 255.255.255.248  broadcast 10.61.155.167
++ edit autoexec.template  # assigning IP addresses for the MESH is tricky.  Soon it will be automated but until then it needs to be done manually.
+    + Find the IP ADDRESS 192.168.2.2 line.  Change the IP address to your JNOS address.  *IP ADDRESS 10.61.155.164
+    + Chane the mask line from 255.255.255.0 to 255.255.255.248
+    + Change the shell ip attachline for the new address
+       + was: .shell ifconfig tun0 192.168.2.2 pointopoint 192.168.2.1 mtu 1500 up
+       + now: .shell ifconfig tun0 10.61.155.64 pointopoint 10.61.155.63 mtu 1500 up
 + ./jnosinstaller_pi  # run the installer
    + install
    + run   # work dir
