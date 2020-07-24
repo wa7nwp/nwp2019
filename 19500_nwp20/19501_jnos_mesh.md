@@ -71,8 +71,10 @@
 
 ## Additional JNOS info
 (cat links by jnos)
-+ [JNOS2 Home](http://www.langelaar.net/jnos2)
-+ [rpi 4 and Linux](http://www.trinityos.com/HAM/CentosDigitalModes/RPi/rpi4-setup.html)
++ [JNOS2 by Maiko Home](http://www.langelaar.net/jnos2) - [recent changes](https://www.langelaar.net/jnos2/documents/changes.txt)
++ [JNOS at Packet-Radio.net](https://packet-radio.net/jnos/)
++ [rpi 4 and Linux](http://www.trinityos.com/HAM/CentosDigitalModes/RPi/rpi4-setup.html) - Trinihty OS by KI6ZHD
++ [JNOS info](https://www.qsl.net/ah6rh/am-radio/packet/jnos.html) - good info from ah6rh
 
 ## Install AREDN MESH
 + [AREDN supported devices](https://www.arednmesh.org/content/supported-platform-matrix)    
