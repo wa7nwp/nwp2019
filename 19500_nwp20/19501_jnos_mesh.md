@@ -21,7 +21,7 @@
    + linux/rPI is 10.61.155.164
 + edit autoexec.template  # assigning IP addresses for the MESH is tricky.Soon it will be automated but until then it needs to be done manually.
     + Find the IP ADDRESS 192.168.2.2 line.  Change the IP address to your JNOS address.  *IP ADDRESS 10.61.155.163
-    + Chane the mask line from 255.255.255.0 to 255.255.255.248
+    + Change the mask line from 255.255.255.0 to 255.255.255.248
     + Change the shell ip attachline for the new address
        + was: .shell ifconfig tun0 192.168.2.2 pointopoint 192.168.2.1 mtu 1500 up
        + now: .shell ifconfig tun0 10.61.155.64 pointopoint 10.61.155.63 mtu 1500 up
@@ -29,13 +29,15 @@
     + shell echo 1 > /proc/sys/net/ipv4/ip_forward
     + pause 1
     + shell /usr/sbin/arp -i eth0 -Ds *10.61.155.163* eth0 pub
+    + NEW route add default tun0 10.61.155.164
     + # jnos commands
     + arp eaves tun0 on
     + trace tun0 0111  # turn on tracking
     + arp poll tun0 on
     + arp maxq 10
     + ip hp tun0 on
-    + route add default tun0 10.61.155.64
+    + route add default tun0 10.61.155.164
+    + domain addserver 10.61.155.161 # use mesh node for DNS lookup
 + Edit *domain.txt*
     + call   10.61.155.163
     + nwpe31 10.61.155.164 # ip address of the rPI
@@ -56,6 +58,14 @@
    + remove redirections on last line:  shold be exec ./jnos -a 4 -R 2 
 + chmod +x startnos
 + sudo ./startnos # run as root user
+
+### Checking
++ ping local
++ ping linux rpi host
++ ping AREDN node
++ ping 8.8.8.8
++ Add dns:  domain addserver AREDN node 10.61.155.161
++ ping wetnet.net
 *
 ## Installing JNOS on virtual x86 rPI
 
