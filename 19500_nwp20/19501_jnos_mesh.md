@@ -58,7 +58,7 @@
 + chmod +x startnos
 + sudo ./startnos # run as root user
 
-### Checking
+### Checking jnos install
 + ping local
 + ping linux rpi host
 + ping AREDN node
@@ -74,7 +74,11 @@
 + [JNOS at Packet-Radio.net](https://packet-radio.net/jnos/)
 + [rpi 4 and Linux](http://www.trinityos.com/HAM/CentosDigitalModes/RPi/rpi4-setup.html) - Trinihty OS by KI6ZHD
 + [JNOS info](https://www.qsl.net/ah6rh/am-radio/packet/jnos.html) - good info from ah6rh
-+ [TUN driver stackoverflow](https://stackoverflow.com/questions/1003684/how-to-interface-with-the-linux-tun-driver)
++ Example Autoexec.nos config
+    + [packet-radio.net](https://packet-radio.net/jnos-autoexec-nos)
++ TUN loopback
+    + [TUN driver stackoverflow](https://stackoverflow.com/questions/1003684/how-to-interface-with-the-linux-tun-driver)
+    + [Using TUN and JNOS](https://packet-radio.net/tag/tun0-interface/)
 
 ## Install AREDN MESH
 + [AREDN supported devices](https://www.arednmesh.org/content/supported-platform-matrix)    
