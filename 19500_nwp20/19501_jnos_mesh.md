@@ -1,8 +1,7 @@
 # JNOS on AREDN MESH
 
 ## Using JNOS
-+ See 19502...
-
++ [See 19502_Using_Jnos](https://github.com/wa7nwp/nwp2019/blob/master/19500_nwp20/19502_jnos_for_smarties.md)
 ## Installing JNOS on raspberry PI
 + \# make f directory to hold everything
 + mkdir jnos
@@ -19,10 +18,10 @@
    + mesh is 10.61.155.161
    + jnos is 10.61.155.163
    + linux/rPI is 10.61.155.164
-+ edit autoexec.template  # assigning IP addresses for the MESH is tricky.Soon it will be automated but until then it needs to be done manually.
++ edit autoexec.template  # assigning IP addresses for the MESH is tricky. Soon it will be automated but until then it needs to be done manually.
     + Find the IP ADDRESS 192.168.2.2 line.  Change the IP address to your JNOS address.  *IP ADDRESS 10.61.155.163
-    + Change the mask line from 255.255.255.0 to 255.255.255.248
-    + Change the shell ip attachline for the new address
+    + Change the mask line from 255.255.255.0 to IP MASK 255.255.255.248
+    + Change the shell ip attach line for the new address
        + was: .shell ifconfig tun0 192.168.2.2 pointopoint 192.168.2.1 mtu 1500 up
        + now: .shell ifconfig tun0 10.61.155.64 pointopoint 10.61.155.63 mtu 1500 up
     + shell ip route add *10.61.155.164* dev tun0 table 44 src *10.61.155.163*
@@ -75,6 +74,7 @@
 + [JNOS at Packet-Radio.net](https://packet-radio.net/jnos/)
 + [rpi 4 and Linux](http://www.trinityos.com/HAM/CentosDigitalModes/RPi/rpi4-setup.html) - Trinihty OS by KI6ZHD
 + [JNOS info](https://www.qsl.net/ah6rh/am-radio/packet/jnos.html) - good info from ah6rh
++ [TUN driver stackoverflow](https://stackoverflow.com/questions/1003684/how-to-interface-with-the-linux-tun-driver)
 
 ## Install AREDN MESH
 + [AREDN supported devices](https://www.arednmesh.org/content/supported-platform-matrix)    
