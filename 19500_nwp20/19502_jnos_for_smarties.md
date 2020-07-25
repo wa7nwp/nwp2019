@@ -44,7 +44,7 @@ At task, like pinging a host or logging in to the local BBS sets up a client ses
 The command window is Session 10.   Standard tracing of packet data flos is under session 9.
 
 ### OS commands
-+ JNOS has basic commands of a file operating system.  *dir*, *list*, *cd*, *more*
++ JNOS has basic commands of a file operating system.  *dir*, *list*, *cd DIR*, *more FILENAME [text]*
 + To shell out and run commands on the host system, *shell*.  An alias shortcut for *shell* is *!*
 
 ### BBS 
