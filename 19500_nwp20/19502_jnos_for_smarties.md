@@ -8,12 +8,26 @@ It's better than calling folks Dummys!
 + HOme Page
 + History
 
+## Parent OS - Linux
+JNOS will run on windows but that's a future project.  For now the primary support for this quick install and run is Raspberry PI Linux.  Supporting just one platform greatly simplifies everything.
 
-## Basics
+### Linux
++ Initial setup is done using command line functions.  Translating to GUI based operations is probably straight forward.
+
++ Learn to use Screen - it will keep a Linux session alive even after you disconnect or log off
+    + screen - to start
+    + screen -rx  - to reattach an existing session
+    + control-A (space) to go to the next session
+    + control-A c - to create a new session window
+    + exit - to kill a session
+    + control-A d - to disconnect from Screen so you can log off
+    + Running [JNOS with screen](http://packet-radio.net/jnos-start-with-screen/) may be useful.  Not currently supported but could be the default soon. 
+
+## JNOS Basics
 
 JNOS has two modes
 + Command mode - for configuration and operations
-+ Client(s) - when making use of networking functionality.
++ Client Sessions - when making use of networking functionality.
 
 ## Basic Command Operation
 JNOS has a handy shortcut of commands.  Only the first relevate letters are needed.  For example, the commands *echo* and *eol*.
@@ -35,8 +49,9 @@ in the jnos-home/help folder.  The same command shortcuts work so *he ec* is the
 bbs help text is in individual files in the spool/mail folder.
 
 ### To Be Documented
-* Chat
-* FTP
-* APRS
-## APRS ## 
-* 
+- [x] bbs
+- [] Chat
+- [] FTP
+- [ ] APRS
+
+## APRS ##
