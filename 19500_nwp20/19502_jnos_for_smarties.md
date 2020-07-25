@@ -12,7 +12,7 @@ JNOS will run on windows but that's a future project.  For now the primary suppo
 
 ### Linux
 + Initial setup is done using command line functions.  Translating to GUI based operations is probably straight forward.
-
++ If the Linux window gets weird and doesn't give new lines, run the command: **stty sane**
 + Learn to use Screen - it will keep a Linux session alive even after you disconnect or log off
     + screen - to start
     + screen -rx  - to reattach an existing session
