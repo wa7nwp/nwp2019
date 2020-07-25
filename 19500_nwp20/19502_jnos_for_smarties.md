@@ -37,6 +37,12 @@ the first letter, *e* is common.   So you have to give two at least.  For *echo*
 in the jnos-home/help folder.  The same command shortcuts work so *he ec* is the same as *help echo*.
 + To quit, enter *ex(it)*.   You will be prompted if you really want to exit.
 
+### Client Sessions
+
+At task, like pinging a host or logging in to the local BBS sets up a client session.  The first session is under function key F1, second F2 and so on.   When a session stops, you have to go to that session and hit enter to close it.  If a session won't stop as expected you may have to close it from the command window with the  *close [session number]* command.
+
+The command window is Session 10.   Standard tracing of packet data flos is under session 9.
+
 ### OS commands
 + JNOS has basic commands of a file operating system.  *dir*, *list*, *cd*, *more*
 + To shell out and run commands on the host system, *shell*.  An alias shortcut for *shell* is *!*
