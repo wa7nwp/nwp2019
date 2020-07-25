@@ -6,7 +6,7 @@ It's better than calling folks Dummys!
 
 ## JNOS info
 + HOme Page
-+ History
++ History - [ka9q started NOS](https://www.ka9q.net/code/ka9qnos/)
 
 ## Parent OS - Linux
 JNOS will run on windows but that's a future project.  For now the primary support for this quick install and run is Raspberry PI Linux.  Supporting just one platform greatly simplifies everything.
