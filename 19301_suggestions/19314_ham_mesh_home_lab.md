@@ -48,3 +48,17 @@ Bill Vodall - Just be sure to clear the option to keep existing settings. Memory
 
 ## Configure Tunnel
 
+## 5 GHz CPE-510 TP-Link
++ Primary goal is to establish a 5 GHz channel as alternate Internet access.  Currently available is two Xfinitywifi public hot spots and at least one public free WiFi.
+### CPE-510 as WIFI client to external AP
++ Installed AREDN Firmware on the CPE510 in place of existing OS.  Was going to learn existing OS but no time so just installed AREDN.
++ Update page failed to operate on any of the command buttons.  Replacing the domain name with static IP resolved this issue thans to X on FB
++ Now have the data fields to connect to a external AP in the WAN column.
++ No nice GUI to scan for available resources.  Access the router by a command line login allows entering commands:
+    + iw wlan0 help
+    + iw wlan0 scan - *shows resource busy*
+    + iw wlan0 info
++ https://askubuntu.com/questions/75625/how-do-i-scan-for-wireless-access-points
+### CPE-510 as DTD device to device link
+   + https://askubuntu.com/questions/75625/how-do-i-scan-for-wireless-access-points
+
