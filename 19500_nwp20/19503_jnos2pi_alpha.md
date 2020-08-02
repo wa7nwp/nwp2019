@@ -30,6 +30,7 @@ It will start with a minimal install and slowly step by step add additional JNOS
 + BBS/local login functionality
     + Connect to the local user/BBS client
     + Connect to BBS from remote system. Either additional JNOS or Telnet on connected workstations
+    + Packet aka AX25 is not supported yet.  Perhaps A2 or A3.
 + Email by TCP between JNOS systems - 
     + Simple SMTP Email - internal only as real world Email is now much more complicated
 + Finger client and Server - easy service to turn on, interesting and sometimes even useful.
@@ -100,6 +101,7 @@ It will start with a minimal install and slowly step by step add additional JNOS
 
 ## Future Goals - order To Be Determined
 + Internet Email
++ AX25 Packet - by AXTCP/AXUDP
 + APRS
 + Convers Chat
 + NNTP news forums
