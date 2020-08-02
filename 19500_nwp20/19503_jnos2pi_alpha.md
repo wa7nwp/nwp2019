@@ -16,13 +16,13 @@ It will start with a minimal install and slowly step by step add additional JNOS
 + Where JNOS traditionally used the default suffix of *ampr.org*, now it will be used the Mesh convention of *local.mesh.*
 
 
-## Alpha 1 - basic functionality
+# Alpha 1 - basic functionality
 
-### Goal
+## Goal
 + Install a functioning JNOS2 on rPI based on AREDN Mesh
 + Use the existing JNOS installer modified to be simpler and for AREDN Mesh
 
-### Basic Functionality
+## Basic Functionality
 + Network connectivity - 
     + Local RPI system
     + Local Mesh router and nodes.  An 5-node 
@@ -34,19 +34,31 @@ It will start with a minimal install and slowly step by step add additional JNOS
     + Simple SMTP Email - internal only as real world Email is now much more complicated
 + Finger client and Server - easy service to turn on, interesting and sometimes even useful.
 
-### Setup
+## Setup
 + Setup AREDN Ham MESH.  One node would work but better to have two or more.  Even better to be connected to a larger tunneled Mesh
-+ Install a recent Raspbian OS on a rPI.  rPI 0 through 4B will work.
++ Install a recent Raspbian Linux OS on a rPI.  rPI 0 through 4B will work.
     + apt install telnet finger screen
 + Follow the [JNOS Install Instructions](https://github.com/wa7nwp/nwp2019/blob/master/19500_nwp20/19501_jnos_mesh.md#installing-jnos-on-raspberry-pi) to get a running JNOS.
 + It's possible to run JNOS as a daemon.  For now we will keep things simple and use a Screen session.
+    + screen commands:
+        + screen [-rx] - start screen, -rx to re-tach to existing session
+        + ^A-(space) - cycle existing screens
+        + ^A-c - creates new window
+        + exit - closes a window
+        + ^A-d - disconnects from screen
+        + screen -ls - lists screen sessions
  
-### Install JNOS on a rpi.
-+ Verify Basic JNOS
+## Alpha Test Verification
++ Verify Basic JNOS functionality
     + ? - to list commands
     + help CMD-NAME - for info on a command
+    + F10 - toggles between the command screen and a monitor session
     + dir - list local directory
     + more domain.txt - see what's in the domain.txt file
+    + ifconfig - show the networking interfaces
+    + route - show existing TCP routing table
+    + F9 - to command session
+    + sessions - show current sessions. F1,F2.. switch to session N.  close N or reset N to close a session
     + exit - shut down JNOS
 + Verify Networking
     + ping localhost
@@ -56,24 +68,37 @@ It will start with a minimal install and slowly step by step add additional JNOS
     + ping 8.8.8.8
     + ping wetnet.net
 + Verify BBS
-    + log in to the bbs
+    + log in to the BBS - bbs / telnet localhost / telnet JNOS-NAME
+    + help / ? - to list commands
     + ping jnos
     + ping linux
     + ping AREDN router box
     + ping wetnet.net
+    + telnet JNOS-NAME - from RPI Linux
 + Verify local Email
+    + jnos email commands - smtp list, smtp kick, smtp kill
+    + log in to BBS - l.. to list - r. to read - ? and help for BBS info
+    + s *YOU*  - send quick email to yourself
+    + s *YOU@JNOS-NAME*
+    + s *YOU@REMOTE-JNOS-NAME*
+    + l - list email in the bbs
 + Verify Finger
+    + finger - from command session
+    + finger @localhost
+    + finger YOURCALL@JNOS-NAME
+    + finger @JNOS-NAME - from RPI Linux
 
 
-## Alpha 2
+# Alpha 2
 
-### Goals
+## Goals
 + Webpage for JNOS2 - make it easy to view on the MESH
++ Info page
 
 
-## Alpha X
+# Alpha X
 
-### Future Goals - order To Be Determined
+## Future Goals - order To Be Determined
 + Internet Email
 + APRS
 + Convers Chat
