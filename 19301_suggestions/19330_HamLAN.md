@@ -49,6 +49,7 @@ Old mesh running on mostly on blue box WRT54G for a fall back basic network
   ## HamLAN
   + https://cdine.org/2017-11-19-portable-hamwan-station/#2017-11-19-portable-hamwan-station
   + http://hamwan.org
+  + [NWdigital net note by AG7GN](https://github.com/AG7GN/networking/blob/master/hamwan-arden-home-README.md)
   
   ## LoRa
   + Ihttps://inductivetwig.com/products/hamshield-lora-edition-high-power - 1 watt
