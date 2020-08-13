@@ -65,8 +65,11 @@
 + ping 8.8.8.8
 + Add dns:  domain addserver AREDN node 10.61.155.161
 + ping wetnet.net
-*
+
+
 ## Installing JNOS on virtual x86 rPI
++ JNOS in a virtualbox on a conventional X86 Windows workstation
++ ...
 
 ## Additional JNOS info
 (cat links by jnos)
@@ -79,6 +82,4 @@
 + TUN loopback
     + [TUN driver stackoverflow](https://stackoverflow.com/questions/1003684/how-to-interface-with-the-linux-tun-driver)
     + [Using TUN and JNOS](https://packet-radio.net/tag/tun0-interface/)
-
-## Install AREDN MESH
-+ [AREDN supported devices](https://www.arednmesh.org/content/supported-platform-matrix)    
+ 
