@@ -1,10 +1,27 @@
 # Ham Mesh
 
 ## Using Mesh
-
 + Quick internet access for a system without having to run a cable.  Just plug a computer into the LAN port and instant Internet is available.
 
-## Configurig Mesh
+## Info
++ [AR150 on OpenWRT](https://openwrt.org/toh/gl.inet/gl-ar150) - base of AREDN mesh
++ [Installing AREDN on AR150](https://openwrt.org/toh/gl.inet/gl-ar150)
+
+## Installing AREDN MESH on AR150
++ Download Fireware
++ Access AR150
+    + disable wifi on laptop
+    + plug laptop into AR150, run ipconfig to see if ip address is assigned by AR150
+    + access AR150 at address http://ADDRESS admin/admin
++ Upload AREDN Firmware
++ Configure AREDN for NWMESH'ish operation
+    + Set channel -2 at X MHz.
+    + setup - freqs - 5 port
++ Basic AREDN operation
+    + Access the page - http://localnode:8080
+    + find the IP address for local and gateway (cmd: ipconfig or ifconfig) - http://GATEWAY-IP:8080
+
+## Configuring Mesh
 + [AREDN Mesh Info](https://github.com/wa7nwp/nwp2019/blob/master/19301_suggestions/19314_ham_mesh_home_lab.md)
 + Set up for 5 or more IP LAN
     + lowest available IP is the MESH router
