@@ -4,8 +4,11 @@
 + Quick internet access for a system without having to run a cable.  Just plug a computer into the LAN port and instant Internet is available.
 
 ## Info
++ [GL-Inet](https://www.gl-inet.com/)
 + [AR150 on OpenWRT](https://openwrt.org/toh/gl.inet/gl-ar150) - base of AREDN mesh
-+ [Installing AREDN on AR150](https://openwrt.org/toh/gl.inet/gl-ar150)
++ [AR150 with External antenna on Amazon](https://amzn.to/3htEwY2)
++ [Installing AREDN](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html) - [**AREDN on GL-Inet AR150**](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html#gl-inet-first-install-process)
++ [GL-Inet AR150 developer kit](https://store.gl-inet.com/products/developer-kit-set-for-gl-ar150-ext-mini-router)
 
 ## Installing AREDN MESH on AR150
 + Download Fireware
