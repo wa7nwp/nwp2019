@@ -19,35 +19,39 @@
 + move the downloaded file to your AREDN local directory for use now and in the future
 + check the MD5... if possible.  Add how-to here later.
 
-## Upload New AREDN firmware to the AR150
-[read the docs](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html#gl-inet-first-install-process)
-  The AR150 has dhcp so establishing connection is simple matter of connecting to the travel router with the programming device.
-1. turn off internet, or unplug existing Ethernet cable, on the computer being used
-2. plug computer ethernet into AR150 LAN port 
-3. Open a CMD window, run IPCONFIG command to verify a new IP address has been assigned
+## Log into the un-modified AR150
+[Review the docs](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html#gl-inet-first-install-process)
+
+  The AR150 has DHCP so establishing connection is simple matter of connecting to the travel router with the programming device.
++ Turn off Internet, or unplug existing Ethernet cable, on the computer being used.
++ Plug computer ethernet into the AR150 LAN port 
++ Open a CMD window, run IPCONFIG command to verify a new IP address has been assigned
 ```
-     Default Gateway of  192.168.8.1
-    IPv4 Address device 192.168.8.154
-```
-1. Log in to the AR150 - Browse to http://192.168.8.1  (GL-INET default address)
- + Select ENGLISH language
- + Assign a new password - don't forget it.  This is for a short time, mere minutes, so don't get too complicated.  use **n7rig**.   Click SUBMIT
+   Default Gateway of  192.168.8.1
+   IPv4 Address device 192.168.8.154
+   ```
++ Log in to the AR150 - Browse to http://192.168.8.1  (GL-INET default address)
+  + Select ENGLISH language
+  + Assign a new password - don't forget it.  This is for a short time, mere minutes, so don't get too complicated.  use **n7rig**.   Click SUBMIT
+ 
+## Upload the AREDN Firmware
  + Click *UPGRADE* option
  + Use LOCAL UPGRADE
  + Drop the file downloaded at the first step, the **aredn...systemupgrade.bin** to the local upgrade page dialog
  + Verify the MD5 with the value noted at download time.  Do not proceed if different.
  + Turn off the *Keep Settings* option
- + Turn off the **KEEP SETTINGS** option.  It's a pain if you forget - ask me how I know.
+ + Again - turn off the **KEEP SETTINGS** option.  It's a pain if you forget - ask me how I know.
  + click SUBMIT
     + __don't touch anything.  Leave the room.  Take a restroom break.  Have a coffee, use the restroom again.__
  + When returning you should have a notificication screen that the connection has been lost.   This is because the address has changed from the default GL-INET LAN to the first boot AREDN-MESH LAN
- + Unplug the ethernet cable then plug it back in.
- + Once again, in the CMD window, run IPCONFIG.   It should show:
- ```
-        Default Gateway 192.168.1.1
-        IPv4 Address    192.168.1.9
-      ```
 
+## Primary Configuration of AREDN
+ + Unplug the ethernet cable then plug it back in.
+ + Once again, in the CMD window, run IPCONFIG.   It should now show:
+ ```
+    Default Gateway 192.168.1.1
+    IPv4 Address    192.168.1.9
+    ```
 ## Primary Setup of AREDN Firmware
  + Browse to http://192.168.1.1 - the temporary LAN address of the AR150
  + click **__SETUP__**  + login as *user* **root** with *password* **hsmm**
@@ -61,22 +65,22 @@
  + Click *Save Changes* at the top.
  + Reboot.   It may be automatic after the *Save Changes*.  If not - click *REBOOT*
     
- ## Login for basic AREDN operation and configuration
+## Login for basic AREDN operation and configuration
  + If the configuration screen does not reappear - unplug and re-connect the Ethernet cable.
  + To confirm mesh is installed, at the CMD window, run IPCONFIG again
  ```
-          DNS Suffix will be : local.mesh
-          IPv4 Address will be : 10.xx.yy.254
-          Subnet Mask          : 255.255.255.248
-          Default Gateway      : 10.xx.yy.249
+    DNS Suffix will be : local.mesh
+    IPv4 Address will be : 10.xx.yy.254
+    Subnet Mask          : 255.255.255.248
+    Default Gateway      : 10.xx.yy.249
     ```
- + load the browser (gateway IP address from IPCONFIG option above) at:
+ + Load the browser (gateway IP address from IPCONFIG option above) at:
  ```
      http://localnode.local.mesh:8080 or
      http://n7rig-1.local.mesh:8080  or
      http://10.xx.yy.249:8080
     ```
-    You now have an AREDN MESH node online.
+You now have an AREDN MESH node online.
         
 ## Customizing AREDNMesh for our (JNOS2PI) operation - MOVE THIS TO NEW PAGE?
 + [AREDN Mesh Info](https://github.com/wa7nwp/nwp2019/blob/master/19301_suggestions/19314_ham_mesh_home_lab.md)
