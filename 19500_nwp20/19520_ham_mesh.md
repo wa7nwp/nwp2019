@@ -1,14 +1,14 @@
 # AREDN Mesh on GL-Inet AR150 Travel Router
 
-## Info and Links
-+ [GL-Inet](https://www.gl-inet.com/)
+## Information and Links
++ [GL-iNet](https://www.gl-inet.com/) - home page for GL-iNet
 + [AR150 on OpenWRT](https://openwrt.org/toh/gl.inet/gl-ar150) - base of AREDN mesh
 + [AR150 with External antenna on Amazon](https://amzn.to/3htEwY2)
 + [Downloading Firmware](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/downloading_firmware.html)
 + [Installing AREDN](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html) - [**AREDN on GL-Inet AR150**](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html#gl-inet-first-install-process)
 + [GL-Inet AR150 developer kit](https://store.gl-inet.com/products/developer-kit-set-for-gl-ar150-ext-mini-router)
 
-# [AREDN GL-AR150 instruc[tions](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/downloading_firmware.htm)
+# AREDN GL-AR150 instructions
 
 ## Get the MESH firmware from AREDN website
 + go to https://www.arednmesh.org/content/current-software and click big red **DOWNLOAD** - goes to http://downloads.arednmesh.org/firmware/html/stable.html
@@ -23,7 +23,7 @@
   The AR150 has DHCP so establishing connection is simple matter of connecting to the travel router with the programming device.
 + Turn off Internet, or unplug existing Ethernet cable, on the computer being used.
 + Plug computer ethernet into the AR150 LAN port 
-+ Open a CMD window, run IPCONFIG command to verify a new IP address has been assigned
++ Open a CMD window, run IPCONFIG command to verify a new IP address has been assigned.
 ```
    Default Gateway of  192.168.8.1
    IPv4 Address device 192.168.8.154
@@ -45,7 +45,7 @@
 
 ## Primary Configuration of AREDN
  + Unplug the ethernet cable then plug it back in.
- + Once again, in the CMD window, run IPCONFIG.   It should now show:
+ + Once again, in the CMD window, run IPCONFIG.   It should now show the default AREDN first boot address:
 ```
    Default Gateway 192.168.1.1
    IPv4 Address    192.168.1.9
