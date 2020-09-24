@@ -4,20 +4,20 @@
 + [GL-Inet](https://www.gl-inet.com/)
 + [AR150 on OpenWRT](https://openwrt.org/toh/gl.inet/gl-ar150) - base of AREDN mesh
 + [AR150 with External antenna on Amazon](https://amzn.to/3htEwY2)
++ [Downloading Firmware](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/downloading_firmware.html)
 + [Installing AREDN](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html) - [**AREDN on GL-Inet AR150**](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html#gl-inet-first-install-process)
 + [GL-Inet AR150 developer kit](https://store.gl-inet.com/products/developer-kit-set-for-gl-ar150-ext-mini-router)
 
-# [AREDN GL-AR150 instructions](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/downloading_firmware.htm)
+# [AREDN GL-AR150 instruc[tions](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/downloading_firmware.htm)
 
 ## Get the MESH firmware from AREDN website
-+ Review Getting Started - https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/downloading_firmware.html 
-+ go to ardenmesh.org/content/current-software - (click DOWNLOADS - goes to ../firmware/html/stable.html)
-+ goto GL-AR150 section
-+ download the sysupgrade file
++ go to https://www.ardenmesh.org/content/current-software and click big red **DOWNLOAD** - goes to http://downloads.arednmesh.org/firmware/html/stable.html
++ Scroll down to *GL-AR150* section under **AREDN Firmware for GL.iNet**
++ Download the glinet ar150 sysupgrade file
   `aredn-3.20.3.1-ath79-glinet_ar150-sysupgrade.bin`
-+ Make note of the **md5sum** - at least the ;ast few characters.
-+ move the downloaded file to your AREDN local directory for use now and in the future
-+ check the MD5... if possible.  Add how-to here later.
++ Make note of the **md5sum** - at least the last few characters.
++ Move the downloaded file to your AREDN local directory for use now and in the future
++ Check the MD5... if possible.  Add how-to here later.
 
 ## Log into the un-modified AR150
 [Review the docs](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html#gl-inet-first-install-process)
