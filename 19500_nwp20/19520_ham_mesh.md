@@ -15,12 +15,13 @@
 1. get the AREDN firmware to a local directory
 https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/downloading_firmware.html goto ardenmesh.org 
 
-# instructions - https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/downloading_firmware.htmhttps://arednmesh.readthedocs.io/en/latest/arednGettingStarted/downloading_firmware.htmll
+# [AREDN GL-AR150 instructions](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/downloading_firmware.htm)
 
-ardenmesh.org/content/current-software
-   (click DOWNLOADS - goes to ../firmware/html/stable.html)
- goto GL-AR150 section
-  download sysupgrade file
+
+## Get the Software
++ go to ardenmesh.org/content/current-software - (click DOWNLOADS - goes to ../firmware/html/stable.html)
++ goto GL-AR150 section
++ download sysupgrade file
     aredn-3.20.3.1-ath79-glinet_ar150-sysupgrade.bin (md5sum...)
   move the downloaded file to your AREDN local directory for future use
   # check the MD5...
