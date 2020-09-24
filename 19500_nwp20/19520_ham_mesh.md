@@ -11,7 +11,7 @@
 # [AREDN GL-AR150 instruc[tions](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/downloading_firmware.htm)
 
 ## Get the MESH firmware from AREDN website
-+ go to https://www.ardenmesh.org/content/current-software and click big red **DOWNLOAD** - goes to http://downloads.arednmesh.org/firmware/html/stable.html
++ go to https://www.arednmesh.org/content/current-software and click big red **DOWNLOAD** - goes to http://downloads.arednmesh.org/firmware/html/stable.html
 + Scroll down to *GL-AR150* section under **AREDN Firmware for GL.iNet**
 + Download the glinet ar150 sysupgrade file
   `aredn-3.20.3.1-ath79-glinet_ar150-sysupgrade.bin`
@@ -20,8 +20,6 @@
 + Check the MD5... if possible.  Add how-to here later.
 
 ## Log into the un-modified AR150
-[Review the docs](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html#gl-inet-first-install-process)
-
   The AR150 has DHCP so establishing connection is simple matter of connecting to the travel router with the programming device.
 + Turn off Internet, or unplug existing Ethernet cable, on the computer being used.
 + Plug computer ethernet into the AR150 LAN port 
