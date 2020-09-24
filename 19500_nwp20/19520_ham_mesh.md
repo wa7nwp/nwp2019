@@ -48,38 +48,38 @@
 ## Primary Configuration of AREDN
  + Unplug the ethernet cable then plug it back in.
  + Once again, in the CMD window, run IPCONFIG.   It should now show:
- ```
-    Default Gateway 192.168.1.1
-    IPv4 Address    192.168.1.9
-    ```
+```
+   Default Gateway 192.168.1.1
+   IPv4 Address    192.168.1.9
+```
 ## Primary Setup of AREDN Firmware
- + Browse to http://192.168.1.1 - the temporary LAN address of the AR150
- + click **__SETUP__**  + login as *user* **root** with *password* **hsmm**
++ Browse to http://192.168.1.1 - the temporary LAN address of the AR150
++ click **__SETUP__**  + login as *user* **root** with *password* **hsmm**
       you are now on a Full AREDN basic setup page.
- + Set the *node name* to your callsign and an extension. For example, **n7rig-1**
- + Set the Password and Verify Password (n7rig...)
- + Verify that the channel is -2 (2397) and the Channel Width is 10 MHz
- + Verify that the *LAN Mode* is **5 host Direct**
- + Verify that the *WAN protocol* is **DHCP, DNS 1 is 8.8.8.8 and DNS 2 is 8.8.4.4**
- + Verify that *Advanced WAN Access* options are both unchecked.
- + Click *Save Changes* at the top.
- + Reboot.   It may be automatic after the *Save Changes*.  If not - click *REBOOT*
++ Set the *node name* to your callsign and an extension. For example, **n7rig-1**
++ Set the Password and Verify Password (n7rig...)
++ Verify that the channel is -2 (2397) and the Channel Width is 10 MHz
++ Verify that the *LAN Mode* is **5 host Direct**
++ Verify that the *WAN protocol* is **DHCP, DNS 1 is 8.8.8.8 and DNS 2 is 8.8.4.4**
++ Verify that *Advanced WAN Access* options are both unchecked.
++ Click *Save Changes* at the top.
++ Reboot.   It may be automatic after the *Save Changes*.  If not - click *REBOOT*
     
 ## Login for basic AREDN operation and configuration
- + If the configuration screen does not reappear - unplug and re-connect the Ethernet cable.
- + To confirm mesh is installed, at the CMD window, run IPCONFIG again
- ```
-    DNS Suffix will be : local.mesh
-    IPv4 Address will be : 10.xx.yy.254
-    Subnet Mask          : 255.255.255.248
-    Default Gateway      : 10.xx.yy.249
-    ```
++ If the configuration screen does not reappear - unplug and re-connect the Ethernet cable.
++ To confirm mesh is installed, at the CMD window, run IPCONFIG again
+```
+   DNS Suffix will be : local.mesh
+   IPv4 Address will be : 10.xx.yy.254
+   Subnet Mask          : 255.255.255.248
+   Default Gateway      : 10.xx.yy.249
+   ```
  + Load the browser (gateway IP address from IPCONFIG option above) at:
  ```
-     http://localnode.local.mesh:8080 or
-     http://n7rig-1.local.mesh:8080  or
-     http://10.xx.yy.249:8080
-    ```
+    http://localnode.local.mesh:8080 or
+    http://n7rig-1.local.mesh:8080  or
+    http://10.xx.yy.249:8080
+   ```
 You now have an AREDN MESH node online.
         
 ## Customizing AREDNMesh for our (JNOS2PI) operation - MOVE THIS TO NEW PAGE?
