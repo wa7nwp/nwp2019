@@ -4,6 +4,7 @@ You've got to be smart because you're runing JNOS.
 It's better than calling folks Dummys!
 
 ## JNOS info
++ [NWP20 JNOS2PI Home](0readme.md)
 + [Official JNOS 2.0 Site](https://www.langelaar.net/jnos2/)
 + History - [ka9q started NOS](https://www.ka9q.net/code/ka9qnos/)
 
