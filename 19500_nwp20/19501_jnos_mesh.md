@@ -1,9 +1,10 @@
-# JNOS on AREDN MESH
+# JNOS2 on AREDN MESH
 
-## Using JNOS
-+ [See 19502_Using_Jnos](https://github.com/wa7nwp/nwp2019/blob/master/19500_nwp20/19502_jnos_for_smarties.md)
-## Installing JNOS on raspberry PI
-+ \# make f directory to hold everything
++ [See 19502_Using_Jnos](https://github.com/wa7nwp/nwp2019/blob/master/19500_nwp20/19502_jnos_for_smarties.md) - using JNOS
+
+## Installing and Configure JNOS2 on raspberry PI
++ \# make directory named **jnos** to hold everything
++ cd
 + mkdir jnos
 + cd jnos
 + wget HOST/jnos2pi/setup
@@ -66,20 +67,22 @@
 + Add dns:  domain addserver AREDN node 10.61.155.161
 + ping wetnet.net
 
-
+----
 ## Installing JNOS on virtual x86 rPI
 + JNOS in a virtualbox on a conventional X86 Windows workstation
 + ...
-
+----
 ## Additional JNOS info
 (cat links by jnos)
 + [JNOS2 by Maiko Home](http://www.langelaar.net/jnos2) - [recent changes](https://www.langelaar.net/jnos2/documents/changes.txt)
 + [JNOS at Packet-Radio.net](https://packet-radio.net/jnos/)
 + [rpi 4 and Linux](http://www.trinityos.com/HAM/CentosDigitalModes/RPi/rpi4-setup.html) - Trinihty OS by KI6ZHD
++ [Michigan section Ham Radio Group](http://server1.nuge.com/~drg/jnos.html) - JNOS install and usage documents
 + [JNOS info](https://www.qsl.net/ah6rh/am-radio/packet/jnos.html) - good info from ah6rh
-+ Example Autoexec.nos config
++ Example Autoexec.nos confighttp://server1.nuge.com/~drg/jnos.html) -
     + [packet-radio.net](https://packet-radio.net/jnos-autoexec-nos)
 + TUN loopback
     + [TUN driver stackoverflow](https://stackoverflow.com/questions/1003684/how-to-interface-with-the-linux-tun-driver)
     + [Using TUN and JNOS](https://packet-radio.net/tag/tun0-interface/)
- 
++ https://sourceforge.net/projects/jnosgraph/
++ http://www.ke8crv.com/2018/12/jnos2-and-ubuntu-virtual-box.html
