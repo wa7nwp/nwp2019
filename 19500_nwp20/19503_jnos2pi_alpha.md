@@ -1,5 +1,6 @@
 
 # JNOS2PI - JNOS2 on rPI on AREDN MESH Alpha project
++ [NWP20 JNOS2PI Home](0readme.md)
 
 ## Goal
 
