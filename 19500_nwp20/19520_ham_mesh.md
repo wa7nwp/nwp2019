@@ -3,7 +3,7 @@
 ## Information and Links
 + [NWP20 JNOS2PI Home](0readme.md)
 + [GL-iNet](https://www.gl-inet.com/) - home page for GL-iNet
-+ [AR150 on OpenWRT](https://openwrt.org/toh/gl.inet/gl-ar150) - base of AREDN mesh
++ [AR150 on OpenWRT](https://openwrt.org/toh/gl.inet/gl-ar150) - base of AREDN mesh.  Other - [ar750](https://openwrt.org/toh/gl.inet/gl-ar750)
 + [AR150 with External antenna on Amazon](https://amzn.to/3htEwY2)
 + [Downloading Firmware](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/downloading_firmware.html)
 + [Installing AREDN](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html) - [**AREDN on GL-Inet AR150**](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html#gl-inet-first-install-process)
