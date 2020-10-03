@@ -1,6 +1,7 @@
 # AREDN Mesh on GL-Inet AR150 Travel Router
 
 ## Information and Links
++ [NWP20 JNOS2PI Home](0readme.md)
 + [GL-iNet](https://www.gl-inet.com/) - home page for GL-iNet
 + [AR150 on OpenWRT](https://openwrt.org/toh/gl.inet/gl-ar150) - base of AREDN mesh
 + [AR150 with External antenna on Amazon](https://amzn.to/3htEwY2)
