@@ -1,5 +1,5 @@
 # JNOS2 on AREDN MESH
-
++ [NWP20 JNOS2PI Home](0readme.md)
 + [See 19502_Using_Jnos](https://github.com/wa7nwp/nwp2019/blob/master/19500_nwp20/19502_jnos_for_smarties.md) - using JNOS
 
 ## Installing and Configure JNOS2 on raspberry PI
