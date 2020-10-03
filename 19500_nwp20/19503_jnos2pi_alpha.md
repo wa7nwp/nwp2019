@@ -40,7 +40,7 @@ It will start with a minimal install and slowly step by step add additional JNOS
 + Setup AREDN Ham MESH.  One node would work but better to have two or more.  Even better to be connected to a larger tunneled Mesh
 + Install a recent Raspbian Linux OS on a rPI.  rPI 0 through 4B will work.
     + apt install telnet finger screen
-+ Follow the [JNOS Install Instructions](https://github.com/wa7nwp/nwp2019/blob/master/19500_nwp20/19501_jnos_mesh.md#installing-jnos-on-raspberry-pi) to get a running JNOS.
++ Follow the [JNOS Install Instructions](19501_jnos_mesh.md#installing-jnos-on-raspberry-pi) to get a running JNOS.
 + It's possible to run JNOS as a daemon.  For now we will keep things simple and use a Screen session.
     + screen commands:
         + screen [-rx] - start screen, -rx to re-tach to existing session
@@ -90,14 +90,18 @@ It will start with a minimal install and slowly step by step add additional JNOS
     + finger YOURCALL@JNOS-NAME
     + finger @JNOS-NAME - from RPI Linux
 
-
+----
 # Alpha 2
 
 ## Goals
 + Webpage for JNOS2 - make it easy to view on the MESH
 + Info page
 
+----
+# Alpha 3
+## Goals
 
+----
 # Alpha X
 
 ## Future Goals - order To Be Determined
