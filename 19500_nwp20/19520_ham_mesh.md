@@ -14,8 +14,8 @@
 ## Get the MESH firmware from AREDN website
 + go to https://www.arednmesh.org/content/current-software and click big red **DOWNLOAD** - goes to http://downloads.arednmesh.org/firmware/html/stable.html
 + Scroll down to *GL-AR150* section under **AREDN Firmware for GL.iNet**
-+ Download the glinet ar150 sysupgrade file
-  `aredn-3.20.3.1-ath79-glinet_ar150-sysupgrade.bin`
++ Download the current GLiNet ar150 sysupgrade file
+  `aredn-3.20.3.1-ath79-glinet_ar150-sysupgrade.bin` - or similar
 + Make note of the **md5sum** - at least the last few characters.
 + Move the downloaded file to your AREDN local directory for use now and in the future
 + Check the MD5... if possible.  Add how-to here later.
