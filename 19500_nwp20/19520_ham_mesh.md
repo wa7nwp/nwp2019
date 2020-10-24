@@ -8,6 +8,7 @@
 + [Downloading Firmware](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/downloading_firmware.html)
 + [Installing AREDN](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html) - [**AREDN on GL-Inet AR150**](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html#gl-inet-first-install-process)
 + [GL-Inet AR150 developer kit](https://store.gl-inet.com/products/developer-kit-set-for-gl-ar150-ext-mini-router)
++ [Install Linux on headless Raspberry PI 0W](https://www.windowscentral.com/how-set-headless-raspberry-pi-windows-10)
 
 # AREDN GL-AR150 instructions
 
