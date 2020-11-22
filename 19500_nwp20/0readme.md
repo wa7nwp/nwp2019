@@ -4,7 +4,7 @@
 
 A merge of the Ham mesh system created by AREDN and the Ham networking Virtual Machine JNOS2.
 
-[AREDN MESH](ardenmesh.org) provides a TCP standard Ham network that's easy to install and configure.
+[AREDN MESH](https://www.arednmesh.org) provides a TCP standard Ham network that's easy to install and configure.
 
 [JNOS2](https://www.langelaar.net/projects/jnos2/) provides a feature rich TCP standard virtual machine clients and servers for both conventional Internet networking and user comfortable legacy Ham packet radio applications.
 
