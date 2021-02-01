@@ -95,3 +95,47 @@ You now have an AREDN MESH node online.
 
 ### Useful Tricks
 + add addition names to the Node Name field of the Basic Setup screen.  There are aliases for addressing the node.  For example, a node has a full name of my-callsign-node / e32 where e32 is my radio reference number.  I can either use the long name or, for example, ping e32.
+
+## GL-iNet CPE-210
+
+### Initial Install of AREDN-MESH
++ Download the firmware from the website.  A new install will use the *factory* firmware.  An update will use the *sysupdate* file - [download page](http://downloads.arednmesh.org/firmware/html/stable.html)
+   + factory for example - File: aredn-3.20.3.1-ath79-tplink_cpe210-v2-factory.bin
+   + sysupgrade - File: aredn-3.20.3.1-ath79-tplink_cpe210-v2-sysupgrade.bin
+Note the Version - 3.20.3.1, tplink_cpe210 device, version v2.
+
+Note that there are at lease three versions of the CPE-210, be sure to get the correct one.  All that I have used are version 2 - ie V2.8
+
+Note to self - check the MD5 next time.
+
++ Turn off the normal networking on the computer and set the Ethernet interface to a static address of 192.168.0.100
++ Power up the CPE210 and connect by Ethernet to the computer.  
+    + POE of the power injector goes to the CPE210
+    + LAN of the power injector goes to the computer
++ Verify that you can Ping the CPE 210 at its default IP address:   ping 192.168.0.254
++ Browse the Web Admin page :  http://192.168.0.254
+    + click the *I agree* box but only after reading carefully all 273 pages of fine print.
+    + login as *admin* with password *admin*
++ Create a new user and password.  This will existing for mere minutes and disappears when Mesh is installed.
++ You now have access to an incredible array of features and functionality - all of which we will now wipe away.
++ Go to the *SYSTEM* tab.  Scroll down to the *update* section.
+    + Select the *Factory* aredn-mesh file previously downloaded.
+    + Click *Upload*
+        + When asked, say NO to preservicing the system settings so it will Restore to Factory defaults.
++ Have a cup of coffe.  Have two.  Give it time and a half to do its magic.
++ AREDNMesh is now installed.  It has a different initial IP address - 192.168.1.1.  
++ Set your computer static IP address to 192.168.1.100.  Close the two IP Property dialogs (on windows 10.)  Close the web browser page you were using.
++ Browse to the inital AREDN setup page:  http://192.168.1.1
+    + If this fails, ping 192.168.1.1 and run *ipconfig* to confirm networking is functioning.
+    + unplug, count to 3, 2, 1,, replug the Ethernet cable
++ Run *Setup* on the Mesh page.
+    + Enter your callsign with an SSID.  I.E.  W7NWP-xyz
+    + Enter the new password - both boxes with same password.
++ Save Settings and Reboot
++ Once again the IP has changed - hopefully.  What it is now we don't care.  Reset your computer back to Dynamic IP address management.  Pull and replug the Ethernet cable.
+    + *ipconfig* shows the new address.  It will be a 10. as assigned by Mesh depending on your radio's MAC address
++ That should be it.  Basic MESH functionality is there and you should see local nodes showing up.
+
+### CPE-210 notes
++ There is only one Ethernet jack.  Not two like the AR150.  To connect additional devices you need a VLAN smart switch like the Netgear 5xyz(fix this)
++ To connect to other nodes locally using dtd (DeviceToDevice) by plugging an ethernet from the 210 power injector to (for example) the LAN port of an AR150 or another CPE210 (510, 610..)
