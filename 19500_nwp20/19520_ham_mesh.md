@@ -98,6 +98,8 @@ You now have an AREDN MESH node online.
 
 ## GL-iNet CPE-210
 
++ [AREDN Mesh Install documents](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html)
+
 ### Initial Install of AREDN-MESH
 + Download the firmware from the website.  A new install will use the *factory* firmware.  An update will use the *sysupdate* file - [download page](http://downloads.arednmesh.org/firmware/html/stable.html)
    + factory for example - File: aredn-3.20.3.1-ath79-tplink_cpe210-v2-factory.bin
