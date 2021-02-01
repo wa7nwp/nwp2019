@@ -1,12 +1,13 @@
-# JNOS for Smarties
-You've got to be smart because you're runing JNOS.
+# Using JNOS 
 
-It's better than calling folks Dummys!
 
 ## JNOS info
 + [NWP20 JNOS2PI Home](0readme.md)
 + [Official JNOS 2.0 Site](https://www.langelaar.net/jnos2/)
-+ History - [ka9q started NOS](https://www.ka9q.net/code/ka9qnos/)
++ [ka9q JNOS History](https://www.ka9q.net/code/ka9qnos/)
+
+## JNOS misc
++ [Self Study JNOS de ..](https://www.scc-ares-races.org/training/self-study/self-study-jnos-sysop.html)
 
 ## Parent OS - Linux
 JNOS will run on windows but that's a future project.  For now the primary support for this quick install and run is Raspberry PI Linux.  Supporting just one platform greatly simplifies everything.
