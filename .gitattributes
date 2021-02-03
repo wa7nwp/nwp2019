@@ -1,0 +1,15 @@
+# from https://docs.github.com/en/github/using-git/conf ???
+
+# Set the default behavior, in case core.autocrlf is not set
+* text=auto
+
+# explicity declare text files to always be normalized and converted
+*.c text
+*.h text
+
+# files that will always have crlf on checkout
+*.sln text eol=crlf
+
+# truly binary
+*.png binary
+*.jpg binary
