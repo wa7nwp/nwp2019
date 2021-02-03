@@ -93,5 +93,27 @@ You now have an AREDN MESH node online.
     + JNOS user access - telnet to JNOS-IP port 23
     + JNOS Finger info - finger to JNOS-IP port xyz?
 
-### Useful Tricks
+## Useful AREDN Mesh Tricks
 + add addition names to the Node Name field of the Basic Setup screen.  There are aliases for addressing the node.  For example, a node has a full name of my-callsign-node / e32 where e32 is my radio reference number.  I can either use the long name or, for example, ping e32.
+
+## Useful AR150 Tricks
+
+### Using the AR150
++ [AREDN 12 Projects for $25 by AB7PA](https://www.youtube.com/watch?v=vT9GuaXSnOo)
++ 13 Tunnel Home
++ 14 Access to the Mesh from a laptop or other computer
++ 15 Internet to phone VOIP device
++ 16 Build a community of hams with similar networking interests
++ 17 Sharing Fun Network Ideas
+Airplane tracking, Mesh Maps, Chatting
++ 18 Connect to local Ham network devices
+
+### Mesh Shared File Server
+[Advertised Service Web page](https://www.arednmesh.org/content/using-gl-ar150-router-running-openwrt-advertised-service-web-page-server)
+Also https://docs.gl-inet.com/en/3/app/file_sharing/
++ Add thumb drive to AR150
++ Upload files
++ Create one or more network mappings for the files
+Now a link shows up for anyone on the mesh to download content.
++ Will htaccess tech work to put a small control on the files?
+
