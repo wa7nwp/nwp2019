@@ -96,10 +96,7 @@ You now have an AREDN MESH node online.
 ## Useful AREDN Mesh Tricks
 + add addition names to the Node Name field of the Basic Setup screen.  There are aliases for addressing the node.  For example, a node has a full name of my-callsign-node / e32 where e32 is my radio reference number.  I can either use the long name or, for example, ping e32.
 
-<<<<<<< HEAD
-## Useful AR150 Tricks
-
-### Using the AR150
+### Using the AR150 - WATCH THE VIDEO!!!
 + [AREDN 12 Projects for $25 by AB7PA](https://www.youtube.com/watch?v=vT9GuaXSnOo)
 + 13 Tunnel Home
 + 14 Access to the Mesh from a laptop or other computer
@@ -118,7 +115,13 @@ Also https://docs.gl-inet.com/en/3/app/file_sharing/
 Now a link shows up for anyone on the mesh to download content.
 + Will htaccess tech work to put a small control on the files?
 
-=======
+### AR150 with RTC (Real Time Clock) and POE (Power Over Ethernet)
++ https://docs.gl-inet.com/en/2/setup/rtc_setting/
++ https://store.gl-inet.com/products/mini-poe-module
++ [AR150 with POE and external Antenna](https://amzn.to/3aCfnsK)
++ [AR150 Hardware info POE and RTC](https://docs.gl-inet.com/en/3/hardware/ar150/)  *archive this page*
++ [AR150 info at OpenWRT](https://openwrt.org/toh/hwdata/gl.inet/gl.inet_gl-ar150)
+
 ## GL-iNet CPE-210
 
 + [AREDN Mesh Install documents](https://arednmesh.readthedocs.io/en/latest/arednGettingStarted/installing_firmware.html)
