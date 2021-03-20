@@ -4,14 +4,18 @@
 ## JNOS info
 + [NWP20 JNOS2PI Project Home](0readme.md)
 + [Maiko's Official JNOS 2.0 Site](https://www.langelaar.net/jnos2/)
-+ [ka9q JNOS History](https://www.ka9q.net/code/ka9qnos/)
+    + [HTTPVNC console web gui](https://www.langelaar.net/jnos2/Archive23Jan2019/archive/documents/httpvnc.txt)
 
 ## JNOS Other Info
++ [ka9q JNOS History](https://www.ka9q.net/code/ka9qnos/)
 + [Self Study JNOS de ..](https://www.scc-ares-races.org/training/self-study/self-study-jnos-sysop.html)
 + [HB JNOS site](http://hb1bbs.com/HB3NOS-Jnos/)
 + [JNOS Info at Packet-Radio.net](https://packet-radio.net/category/jnos/)  Includes handy nos.loop in Screennotes
 + [running with DIREWOLF tweaks](https://github.com/italic-r/JNOS)
 + [JNOS Tweaks and bug fixes](https://kb8ojh.net/packet/jnos.html)
++ [Ron's JNOS comments](https://www.qsl.net/ah6rh/am-radio/packet/jnos.html)
++ [Misc Info](https://sec-mi.blogspot.com/2014/02/more-pi-jnos-fun.html)
++ [W8RCR Personal JNOS](http://ares-mi.org/downloads/Packet/Configure_Personal_JNOS/Configure_Personal_JNOS--Raspberry_Pi-JNOS-en-US.pdf)
 
 ## Parent OS - Linux
 JNOS will run on windows but that's a future project.  For now the primary support for this quick install and run is Raspberry PI Linux.  Supporting just one platform greatly simplifies everything.
