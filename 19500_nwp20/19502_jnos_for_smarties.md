@@ -11,6 +11,7 @@
 + [HB JNOS site](http://hb1bbs.com/HB3NOS-Jnos/)
 + [JNOS Info at Packet-Radio.net](https://packet-radio.net/category/jnos/)  Includes handy nos.loop in Screennotes
 + [running with DIREWOLF tweaks](https://github.com/italic-r/JNOS)
++ [JNOS Tweaks and bug fixes](https://kb8ojh.net/packet/jnos.html)
 
 ## Parent OS - Linux
 JNOS will run on windows but that's a future project.  For now the primary support for this quick install and run is Raspberry PI Linux.  Supporting just one platform greatly simplifies everything.
